@@ -1,0 +1,7 @@
+{
+"subscription": {
+"id": "sub_8tQNd3qURQJiK5"
+}
+}
+
+// curl -H "X-SUBAUTH: <auth-token>" https://subtype.quintype.com/api/v1/subscription_plans/<subscription-plan-id>/external_subscription_token.json?type=razorpay

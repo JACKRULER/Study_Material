@@ -1,0 +1,17 @@
+{
+"subscription": {
+"subscription_plan_id": "105",
+"coupon_code": "",
+"payment": {
+"payment_type": "manual",
+"payment_token": "",
+"amount_cents": "1299000",
+"amount_currency": "INR"
+},
+"metadata":  {
+
+},
+"start_timestamp": "2018-03-01 00:00:00"
+}
+}
+

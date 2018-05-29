@@ -1,0 +1,137 @@
+{
+  "tree": [
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.006461736946494767",
+      "client-id": "card-0.6296385998272442"
+    },
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.23016560968174082",
+      "client-id": "card-0.60835822752407"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-card-0.006461736946494767": {
+      "story-elements": [
+        {
+          "type": "text",
+          "subtype": "summary",
+          "id": "new-story-element-0.9730525589264207",
+          "client-id": "client-story-element-0.20860790665740314",
+          "metadata": {},
+          "text": "<p>Summary Element Data</p>"
+        },
+        {
+          "type": "text",
+          "text": "<p>Text Element Data</p>",
+          "id": "new-story-element-0.5781698610014996",
+          "client-id": "client-story-element-0.13865165223103215",
+          "metadata": {}
+        },
+        {
+          "type": "image",
+          "id": "new-story-element-0.24208999298778533",
+          "client-id": "client-story-element-0.9933276855992959",
+          "metadata": {},
+          "image-url": "http://d9zv4zsfqrm9s.cloudfront.net/qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+          "image-metadata": {
+            "width": 640,
+            "height": 400
+          },
+          "image-s3-key": "qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+          "image-attribution": "",
+          "title": ""
+        }
+      ],
+      "client-id": "card-0.6296385998272442"
+    },
+    "new-card-0.23016560968174082": {
+      "story-elements": [
+        {
+          "type": "jsembed",
+          "id": "new-story-element-0.04361820636751612",
+          "client-id": "client-story-element-0.4045411312061513",
+          "metadata": {},
+          "embed-js": "PHNjcmlwdCBpZD0iaW5mb2dyYW1fMF90cnVtcF90cmVuZGluZ19kb3dud2FyZF9vbl9icm9hZGNhc3RfbWVkaWEiIHRpdGxlPSJUcnVtcCB0cmVuZGluZyBkb3dud2FyZCBvbiBicm9hZGNhc3QgbWVkaWEiIHNyYz0iLy9lLmluZm9nci5hbS9qcy9lbWJlZC5qcz93WWoiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+PC9zY3JpcHQ+"
+        }
+      ],
+      "client-id": "card-0.60835822752407"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false
+  },
+  "story-template": null,
+  "metadata": {},
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "headline": "Text",
+  "subheadline": "Subtitle of Text Story",
+  "updated-cards": [
+    "new-card-0.006461736946494767",
+    "new-card-0.23016560968174082"
+  ],
+  "hero-image-url": "http://thumbor-stg.assettype.com/qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+  "hero-image-s3-key": "qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+  "hero-image-metadata": {
+    "width": 960,
+    "height": 611,
+    "mime-type": "image/jpeg",
+    "focus-point": [
+      389,
+      254
+    ]
+  },
+  "hero-image-attribution": "Stars",
+  "hero-image-caption": "Night&nbsp;",
+  "summary": "Msg!!",
+  "tags": [
+    {
+      "id": 168517,
+      "name": "test",
+      "meta-description": null
+    }
+  ],
+  "sections": [
+    {
+      "id": 6533,
+      "name": "News",
+      "publisher-id": 107,
+      "updated-at": 1517472077282,
+      "deleted-at": null,
+      "slug": "news",
+      "display-name": null,
+      "parent-id": null,
+      "collection-id": null,
+      "pathString": "News"
+    }
+  ],
+  "author-id": 181594,
+  "author-name": "Tester",
+  "authors": [
+    {
+      "updated-at": 1517482269765,
+      "email": "qa@gmail.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Tester",
+      "avatar-url": null,
+      "source": null,
+      "first-name": null,
+      "communication-email": "testerquint@gmail.com",
+      "bio": null,
+      "id": 181594,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517481589410
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "subscriber_identity": {
+    "provider": "facebook",
+    "value": "testing"
+  }
+}
+
+// curl -H "X-SUBAUTH: 4iqzPVx3dc5fKkxj63sXt1YM" -H "Content-Type: application/json" -X POST http://subtype.staging.quintype.com/api/v1/subscribers/email/ritika@quintype.com/subscriber_identities.json -d

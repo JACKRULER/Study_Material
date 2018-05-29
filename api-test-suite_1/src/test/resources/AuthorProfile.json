@@ -1,0 +1,17 @@
+{
+  "id": 181594,
+  "publisher-id": 107,
+  "name": "Tester",
+  "twitter-handle": "tester@twitter.com",
+  "bio": "<p> This is a bio of the tester profile.</p>",
+  "avatar-url": null,
+  "avatar-s3-key": null,
+  "communication-email": "tester@twitter.com",
+  "metadata": {
+    "designation": "",
+    "id": "",
+    "city": "",
+    "gender": ""
+  },
+  "temp-s3-key": null
+}

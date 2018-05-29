@@ -1,0 +1,180 @@
+{
+  "tree": [
+    {
+      "content-id": "new-0",
+      "content-type": "card",
+      "client-id": "client-card-0.6657806588973356"
+    },
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.3394450057540217",
+      "client-id": "card-0.8483369265945391"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-0": {
+      "story-elements": [
+        {
+          "id": "new-ingredients-0",
+          "title": "Ingredients for this Special Recipe",
+          "type": "composite",
+          "subtype": "ingredients",
+          "story-elements": [
+            {
+              "type": "text",
+              "subtype": "ingredient",
+              "metadata": {
+                "quantity": "1",
+                "unit": null,
+                "description": "Description 111"
+              },
+              "client-id": "client-story-element-0.20222516548131764",
+              "text": "1 Description 111"
+            },
+            {
+              "type": "text",
+              "subtype": "ingredient",
+              "metadata": {
+                "quantity": "2",
+                "unit": null,
+                "description": "Description 222"
+              },
+              "client-id": "client-story-element-0.8919310364299815",
+              "text": "2 Description 222"
+            },
+            {
+              "type": "text",
+              "subtype": "ingredient",
+              "metadata": {
+                "quantity": "3",
+                "unit": null,
+                "description": "Description 333"
+              },
+              "client-id": "client-story-element-0.7700011654801489",
+              "text": "3 Description 333"
+            }
+          ],
+          "client-id": "client-story-element-0.20983480300204937",
+          "metadata": {},
+          "text": "<ul><li>1 Description 111</li><li>2 Description 222</li><li>3 Description 333</li></ul>"
+        },
+        {
+          "id": "new-text-0",
+          "type": "text",
+          "text": "<p>Instructions for this Special Recipe</p>",
+          "client-id": "client-story-element-0.8630383073674377",
+          "metadata": {}
+        }
+      ],
+      "client-id": "client-card-0.6657806588973356"
+    },
+    "new-card-0.3394450057540217": {
+      "story-elements": [
+        {
+          "type": "text",
+          "id": "new-story-element-0.7034823567179029",
+          "client-id": "client-story-element-0.670359977930129",
+          "metadata": {},
+          "text": "<p>Text Element for this Story</p>"
+        }
+      ],
+      "client-id": "card-0.8483369265945391"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false
+  },
+  "story-template": "recipe",
+  "metadata": {},
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "updated-cards": [
+    "new-0",
+    "new-card-0.3394450057540217"
+  ],
+  "headline": "Recipe Story 123",
+  "subheadline": "Subtitle for this Recipe Story",
+  "hero-image-url": "https://quintype-dropbox-accelerated.s3-accelerate.amazonaws.com/qa.staging.quintype.com/2018-03-08/1728/32b6e042-d0ab-4eb4-bedc-c5122028d342.jpeg",
+  "hero-image-metadata": {
+    "width": 275,
+    "height": 183,
+    "mime-type": "image/jpeg"
+  },
+  "temporary-hero-image-key": "qa.staging.quintype.com/2018-03-08/1728/32b6e042-d0ab-4eb4-bedc-c5122028d342.jpeg",
+  "hero-image-attribution": "",
+  "hero-image-caption": "",
+  "summary": "Social Share Msg !!!",
+  "tags": [
+    {
+      "name": "asd"
+    }
+  ],
+  "sections": [
+    {
+      "id": 6533,
+      "name": "News",
+      "publisher-id": 107,
+      "updated-at": 1517472077282,
+      "deleted-at": null,
+      "slug": "news",
+      "display-name": null,
+      "parent-id": null,
+      "collection-id": null,
+      "pathString": "News"
+    }
+  ],
+  "seo": {
+    "meta-description": "Description for SEO",
+    "meta-title": "Title for SEO",
+    "meta-keywords": [
+      "SEO"
+    ],
+    "meta-google-news-standout": false,
+    "claim-reviews": {
+      "story": {
+        "enabled": false,
+        "claim-review": {
+          "itemReviewed": {
+            "author": {
+              "name": "",
+              "sameAs": ""
+            },
+            "datePublished": "2018-03-08"
+          },
+          "claimReviewed": "",
+          "reviewRating": {
+            "ratingValue": "-1",
+            "alternateName": "Hard to categorize"
+          }
+        }
+      }
+    }
+  },
+  "author-id": 181675,
+  "author-name": "Sachin S Dhingra",
+  "authors": [
+    {
+      "updated-at": 1517923719961,
+      "email": "sachin@quintype.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Sachin S Dhingra",
+      "avatar-url": "https://lh3.googleusercontent.com/-R6WXPJC81PE/AAAAAAAAAAI/AAAAAAAAAAA/qmKcDOM2O2I/photo.jpg?sz=50",
+      "source": null,
+      "first-name": null,
+      "communication-email": null,
+      "bio": null,
+      "id": 181675,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517907077824
+    }
+  ]
+}

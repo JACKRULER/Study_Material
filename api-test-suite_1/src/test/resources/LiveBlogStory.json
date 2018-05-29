@@ -1,0 +1,176 @@
+{
+  "tree": [
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.6283094997303733",
+      "client-id": "card-0.7636485067027865"
+    },
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.8744823024155701",
+      "client-id": "card-0.0116075456282283"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-card-0.8744823024155701": {
+      "story-elements": [
+        {
+          "type": "title",
+          "id": "new-0.531585934456209",
+          "client-id": "client-card-0.9070127334249962",
+          "metadata": {},
+          "text": "First Title"
+        },
+        {
+          "type": "image",
+          "id": "new-story-element-0.1690364237432911",
+          "client-id": "client-story-element-0.16381894985479373",
+          "metadata": {},
+          "image-url": "http://d9zv4zsfqrm9s.cloudfront.net/qa/2018-02/28bb03c7-fa25-4799-9eed-387164b14951/A5.jpg",
+          "image-metadata": {
+            "width": 640,
+            "height": 400
+          },
+          "image-s3-key": "qa/2018-02/28bb03c7-fa25-4799-9eed-387164b14951/A5.jpg",
+          "image-attribution": "QWE",
+          "title": "ASD"
+        }
+      ],
+      "client-id": "card-0.0116075456282283"
+    },
+    "new-card-0.6283094997303733": {
+      "story-elements": [
+        {
+          "type": "title",
+          "id": "new-0.853509252976941",
+          "client-id": "client-card-0.6530761214634144",
+          "metadata": {},
+          "text": "Second Title"
+        },
+        {
+          "type": "image",
+          "id": "new-story-element-0.5232942217659784",
+          "client-id": "client-story-element-0.9563359996409939",
+          "metadata": {},
+          "image-url": "http://d9zv4zsfqrm9s.cloudfront.net/qa/2018-02/ba009f90-1f64-4793-a1ed-365be15f11ea/A4.jpg",
+          "image-metadata": {
+            "width": 640,
+            "height": 359
+          },
+          "image-s3-key": "qa/2018-02/ba009f90-1f64-4793-a1ed-365be15f11ea/A4.jpg",
+          "image-attribution": "QWE",
+          "title": "ASD"
+        }
+      ],
+      "client-id": "card-0.7636485067027865",
+      "metadata": {
+        "attributes": {
+          "is-pinned?": true
+        }
+      }
+    }
+  },
+  "workflow": {
+    "published": {
+      "transitions": [
+        {
+          "next-status": "draft",
+          "action": "story-retract",
+          "style": "fail",
+          "display-name": "Retract"
+        },
+        {
+          "next-status": "published",
+          "action": "story-close",
+          "style": "success",
+          "display-name": "Close",
+          "story-metadata": {
+            "is-closed": true
+          },
+          "before-transition": "reverse-cards"
+        }
+      ],
+      "after-update-status": "published"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false,
+    "disable-auto-save": true,
+    "add-cards-on-top": true,
+    "card-show-timestamp": true,
+    "auto-republish": true,
+    "publish-without-cards": true
+  },
+  "story-template": "live-blog",
+  "metadata": {},
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "headline": "LiveBlog",
+  "subheadline": "some random subtitle",
+  "updated-cards": [
+    "new-card-0.8744823024155701",
+    "new-card-0.6283094997303733"
+  ],
+  "hero-image-url": "http://thumbor-stg.assettype.com/qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+  "hero-image-s3-key": "qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+  "hero-image-metadata": {
+    "width": 1600,
+    "height": 900,
+    "mime-type": "image/jpeg",
+    "focus-point": [
+      665,
+      528
+    ]
+  },
+  "hero-image-attribution": "QWERTY",
+  "hero-image-caption": "Home",
+  "summary": "Msg!!",
+  "tags": [
+    {
+      "id": 168515,
+      "name": "India",
+      "meta-description": null
+    }
+  ],
+  "sections": [
+    {
+      "id": 6538,
+      "name": "Politics",
+      "publisher-id": 107,
+      "updated-at": 1517549076875,
+      "deleted-at": null,
+      "slug": "politics",
+      "display-name": "Politics",
+      "parent-id": null,
+      "collection-id": 4286,
+      "pathString": "Politics"
+    }
+  ],
+  "author-id": 181594,
+  "author-name": "Tester",
+  "authors": [
+    {
+      "updated-at": 1517482269765,
+      "email": "qa@gmail.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Tester",
+      "avatar-url": null,
+      "source": null,
+      "first-name": null,
+      "communication-email": "testerquint@gmail.com",
+      "bio": null,
+      "id": 181594,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517481589410
+    }
+  ]
+}

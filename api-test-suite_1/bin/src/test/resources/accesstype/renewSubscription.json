@@ -1,0 +1,15 @@
+{
+"subscription": {
+"coupon_code": "",
+"payment": {
+"payment_type": "razorpay",
+"payment_token": "pay_test_8tNiqdiajurOkj",
+"amount_cents": "99900",
+"amount_currency": "INR"
+}
+},
+"alternate_provider": "email",
+"alternate_identity": "hey@quintype.com"
+}
+
+// curl -H "X-SUBAUTH: <auth-token>" -H "Content-Type: application/json" -X POST https://subtype.quintype.com/api/v1/subscribers/<provider>/<identity>/subscriptions/<subscription_id>/renewals.json -d

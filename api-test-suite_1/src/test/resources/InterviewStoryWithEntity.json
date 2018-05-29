@@ -1,0 +1,222 @@
+{
+	"tree": [{
+		"content-id": "new-0",
+		"content-type": "card",
+		"client-id": "client-card-0.5096399371887046"
+	}, {
+		"content-id": "new-1",
+		"content-type": "card",
+		"client-id": "client-card-0.7089180306507015"
+	}, {
+		"content-id": "new-2",
+		"content-type": "card",
+		"client-id": "client-card-0.06451597618277183"
+	}],
+	"story-content-id": "new",
+	"cards": {
+		"new-0": {
+			"story-elements": [{
+				"type": "text",
+				"subtype": "question",
+				"id": "new-question-0",
+				"client-id": "client-story-element-0.9870417844426753",
+				"metadata": {
+					"interviewer": {
+						"updated-at": 1515686653778,
+						"publisher-id": 87,
+						"name": "SCHMIDT",
+						"type": "dude",
+						"entity-type-id": 30,
+						"deleted-at": null,
+						"created-by": 178202,
+						"id": 56935,
+						"last-updated-by": 178202,
+						"created-at": 1515686653778
+					}
+				},
+				"text": "<p>You’re O.K. with me recording, right?</p>"
+			}, {
+				"type": "text",
+				"subtype": "answer",
+				"id": "new-answer-0",
+				"client-id": "client-story-element-0.22180631845007048",
+				"metadata": {
+					"interviewee": {
+						"updated-at": 1515686627490,
+						"publisher-id": 87,
+						"name": "Donald Trump",
+						"type": "dude",
+						"entity-type-id": 30,
+						"deleted-at": null,
+						"created-by": 178202,
+						"id": 56934,
+						"last-updated-by": 178202,
+						"created-at": 1515686627490
+					}
+				},
+				"text": "<p>Yeah. Virtually every Democrat has said there is no collusion. There is no collusion. And even these committees that have been set up. If you look at what’s going on — and in fact, what it’s done is, it’s really angered the base and made the base stronger. My base is stronger than it’s ever been. Great congressmen, in particular, some of the congressmen have been unbelievable in pointing out what a witch hunt the whole thing is. So, I think it’s been proven that there is no collusion.</p>"
+			}],
+			"client-id": "client-card-0.5096399371887046"
+		},
+		"new-1": {
+			"story-elements": [{
+				"type": "text",
+				"subtype": "question",
+				"id": "new-question-0",
+				"client-id": "client-story-element-0.8217850990342264",
+				"metadata": {
+					"interviewer": {
+						"updated-at": 1515686653778,
+						"publisher-id": 87,
+						"name": "SCHMIDT",
+						"type": "dude",
+						"entity-type-id": 30,
+						"deleted-at": null,
+						"created-by": 178202,
+						"id": 56935,
+						"last-updated-by": 178202,
+						"created-at": 1515686653778
+					}
+				},
+				"text": "<p>You would have run completely differently.</p>"
+			}, {
+				"type": "text",
+				"subtype": "answer",
+				"id": "new-answer-0",
+				"client-id": "client-story-element-0.6569858272595543",
+				"metadata": {
+					"interviewee": {
+						"updated-at": 1515686627490,
+						"publisher-id": 87,
+						"name": "Donald Trump",
+						"type": "dude",
+						"entity-type-id": 30,
+						"deleted-at": null,
+						"created-by": 178202,
+						"id": 56934,
+						"last-updated-by": 178202,
+						"created-at": 1515686627490
+					}
+				},
+				"text": "<p>It would have been a whole different thing. The genius is that the popular vote is a much different form of campaigning. Hillary never understood that.</p>"
+			}],
+			"client-id": "client-card-0.7089180306507015"
+		},
+		"new-2": {
+			"story-elements": [{
+				"type": "text",
+				"subtype": "question",
+				"id": "new-question-0",
+				"client-id": "client-story-element-0.2704342482747455",
+				"metadata": {
+					"interviewer": {
+						"updated-at": 1515686653778,
+						"publisher-id": 87,
+						"name": "SCHMIDT",
+						"type": "dude",
+						"entity-type-id": 30,
+						"deleted-at": null,
+						"created-by": 178202,
+						"id": 56935,
+						"last-updated-by": 178202,
+						"created-at": 1515686653778
+					}
+				},
+				"text": "<p>What’s your expectation on Mueller? When do you —<br></p>"
+			}, {
+				"type": "text",
+				"subtype": "answer",
+				"id": "new-answer-0",
+				"client-id": "client-story-element-0.501821361589653",
+				"metadata": {
+					"interviewee": {
+						"updated-at": 1515686627490,
+						"publisher-id": 87,
+						"name": "Donald Trump",
+						"type": "dude",
+						"entity-type-id": 30,
+						"deleted-at": null,
+						"created-by": 178202,
+						"id": 56934,
+						"last-updated-by": 178202,
+						"created-at": 1515686627490
+					}
+				},
+				"text": "<p>I have no expectation. I can only tell you that there is absolutely no collusion. Everybody knows it. And you know who knows it better than anybody? The Democrats. They walk around blinking at each other.<br></p>"
+			}],
+			"client-id": "client-card-0.06451597618277183"
+		},
+		"new-3": {
+			"story-elements":[
+				{"type":"composite","subtype":"image-gallery","id":"new-story-element-0.9503016213088507","client-id":"client-story-element-0.2526316640526456",
+					"metadata":{"type":"gallery"},
+					"story-elements":[
+						{"image-s3-key":"platform/2017-12/836728a1-cfb6-4233-acb2-44f95578ff8c/4.jpg","image-url":"http://d9zv4zsfqrm9s.cloudfront.net/platform/2017-12/836728a1-cfb6-4233-acb2-44f95578ff8c/4.jpg","image-metadata":{"width":4219,"height":3164},"image-attribution":"","title":"","client-id":"client-story-element-0.9392840682666619","type":"image"},{"image-s3-key":"platform/2017-11/a04c6dcf-51d5-4601-b669-64321241c5b0/A3.jpg","image-url":"http://d9zv4zsfqrm9s.cloudfront.net/platform/2017-11/a04c6dcf-51d5-4601-b669-64321241c5b0/A3.jpg","image-metadata":{"width":380,"height":257},"image-attribution":"ASD","title":"ZXC","client-id":"client-story-element-0.18854028173598225","type":"image"}
+					]
+
+				}],
+			"client-id": "client-card-0.06451597618277183"
+		}
+	},
+	"editor-features": {
+		"can-skip-hero-image": false,
+		"must-have-custom-slug": false,
+		"must-have-some-question-or-answer": true
+	},
+	"story-template": "interview",
+	"metadata": {},
+	"push-notification-targets": {
+		"web": false,
+		"mobile": false
+	},
+	"private-fields": {
+		"editor-notes": ""
+	},
+	"headline": "Interview Sample Test Story",
+	"hero-image-url": "http://thumbor-stg.assettype.com/qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+	"hero-image-s3-key": "qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+	"hero-image-metadata": {
+		"width": 672,
+		"height": 378,
+		"mime-type": "image/jpeg"
+	},
+	"hero-image-attribution": "",
+	"hero-image-caption": "Donald Trump",
+	"updated-cards": ["new-0", "new-1", "new-2"],
+	"summary": "Interview Sample Test Story",
+	"tags": [{
+		"id": 168435,
+		"name": "Trump",
+		"meta-description": null
+	}],
+	"sections": [{
+		"id": 5510,
+		"name": "News",
+		"publisher-id": 87,
+		"updated-at": 1504508280342,
+		"deleted-at": null,
+		"slug": "news",
+		"display-name": "News",
+		"parent-id": null,
+		"collection-id": null,
+		"pathString": "News"
+	}],
+	"author-id": 178214,
+	"author-name": "tester",
+	"authors": [{
+		"updated-at": 1514886528808,
+		"email": "testerquint@gmail.com",
+		"last-name": null,
+		"publisher-id": 87,
+		"name": "tester",
+		"avatar-url": "http://d9zv4zsfqrm9s.cloudfront.net/platform/2018-01/24f20b47-bd9c-4d5a-a1d3-8dc0defc53da/AA.jpg",
+		"source": null,
+		"first-name": null,
+		"communication-email": null,
+		"bio": "<p>bio</p>",
+		"id": 178214,
+		"avatar-s3-key": "platform/2018-01/24f20b47-bd9c-4d5a-a1d3-8dc0defc53da/AA.jpg",
+		"twitter-handle": null,
+		"created-at": 1510736572158
+	}]
+}

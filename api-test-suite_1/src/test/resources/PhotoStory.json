@@ -1,0 +1,113 @@
+{
+  "tree": [
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.3236406705510946",
+      "client-id": "client-card-0.5085970980945951"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-card-0.3236406705510946": {
+      "story-elements": [
+        {
+          "type": "image",
+          "id": "new-0.48447569583142247",
+          "client-id": "client-card-0.2886084194492895",
+          "metadata": {
+
+          },
+          "image-url": "http:\/\/thumbor-stg.assettype.com\/qa\/2018-02\/073ce25d-b18a-44d3-8180-7eaffc0430b0\/A3.jpg",
+          "image-metadata": {
+            "width": 380,
+            "mime-type": "image\/jpeg",
+            "focus-point": [
+              121,
+              122
+            ],
+            "height": 257
+          },
+          "image-s3-key": "qa\/2018-02\/073ce25d-b18a-44d3-8180-7eaffc0430b0\/A3.jpg",
+          "image-attribution": "",
+          "title": "A3"
+        }
+      ],
+      "client-id": "client-card-0.5085970980945951"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false,
+    "must-have-photo": true
+  },
+  "story-template": "photo",
+  "metadata": {
+
+  },
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "headline": "new new",
+  "hero-image-url": "http:\/\/thumbor-stg.assettype.com\/qa\/2018-04\/2213eaa9-8dec-4716-9c2a-02718970633d\/A8.jpg",
+  "hero-image-metadata": {
+    "width": 300,
+    "height": 168,
+    "mime-type": "image\/jpeg",
+    "focus-point": [
+      89,
+      89
+    ]
+  },
+  "hero-image-s3-key": "qa\/2018-04\/2213eaa9-8dec-4716-9c2a-02718970633d\/A8.jpg",
+  "hero-image-attribution": "A8",
+  "hero-image-caption": "A8",
+  "updated-cards": [
+    "new-card-0.3236406705510946"
+  ],
+  "summary": "ssm",
+  "tags": [
+    {
+      "id": 168517,
+      "name": "test",
+      "meta-description": null
+    }
+  ],
+  "sections": [
+    {
+      "id": 6648,
+      "name": "Sections_TC_07",
+      "publisher-id": 107,
+      "updated-at": 1522660197366,
+      "deleted-at": null,
+      "slug": "sections_tc_07",
+      "display-name": "Sections_TC_07",
+      "parent-id": null,
+      "collection-id": 5484,
+      "pathString": "Sections_TC_07"
+    }
+  ],
+  "author-id": 181594,
+  "author-name": "Tester",
+  "authors": [
+    {
+      "updated-at": 1527458458520,
+      "email": "qa@gmail.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Tester",
+      "avatar-url": null,
+      "source": null,
+      "first-name": null,
+      "communication-email": "tester@twitter.com",
+      "bio": "<p> This is a bio of the tester profile.<\/p>",
+      "id": 181594,
+      "avatar-s3-key": null,
+      "twitter-handle": "tester@twitter.com",
+      "created-at": 1517481589410
+    }
+  ]
+}

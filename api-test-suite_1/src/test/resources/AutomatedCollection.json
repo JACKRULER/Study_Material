@@ -1,0 +1,55 @@
+{
+  "id": null,
+  "name": "Demo 234",
+  "summary": "",
+  "type": "content",
+  "story-content-ids": [
+    "d32ea97f-ed86-43b6-932e-8380ee05f092",
+    4311,
+    "28a3a291-d572-4a7b-854e-9de408cf4823",
+    4295
+  ],
+  "metadata": {
+    "cover-image": {}
+  },
+  "access": null,
+  "price-amount": null,
+  "price-currency": null,
+  "collection-date": null,
+  "items": [
+    {
+      "id": "d32ea97f-ed86-43b6-932e-8380ee05f092",
+      "threshold": null,
+      "type": "story"
+    },
+    {
+      "id": "4311",
+      "threshold": null,
+      "type": "collection",
+      "associated-metadata": {}
+    },
+    {
+      "id": "28a3a291-d572-4a7b-854e-9de408cf4823",
+      "threshold": null,
+      "type": "story"
+    },
+    {
+      "id": "4295",
+      "threshold": null,
+      "type": "collection",
+      "associated-metadata": {}
+    }
+  ],
+  "rules": {
+    "fields": "author-id,content-type,q,message,story-template,updated-at,id",
+    "content-type": "story",
+    "sort-automated-result": "latest-published",
+    "sort": "updated-at",
+    "section-id": "6538",
+    "story-template": "photo",
+    "collection-id": null
+  },
+  "template": "default",
+  "automated": true,
+  "slug": ""
+}

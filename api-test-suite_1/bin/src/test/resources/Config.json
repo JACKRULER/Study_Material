@@ -1,0 +1,1413 @@
+{
+  "configuration": [
+    {
+      "toggle": true,
+      "slug": "dev-analytics-90-days"
+    },
+    {
+      "toggle": true,
+      "slug": "search-reusable-content"
+    },
+    {
+      "description": null,
+      "slug": "analytics-email",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Email from Quintype Analytics",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2116,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 19,
+      "category-name": "Features"
+    },
+    {
+      "config": {
+        "editable-fields": [
+          "designation",
+          "id",
+          "city",
+          "gender"
+        ]
+      },
+      "slug": "member-profile"
+    },
+    {
+      "toggle": true,
+      "slug": "enable-story-seo-tags"
+    },
+    {
+      "description": null,
+      "slug": "brightcove-video",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Video (Brightcove)",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2339,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 85,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "video",
+      "name": "Video Story",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1237,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "bitgravity-video",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Video (Bitgravity)",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2147,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 33,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "create-live-blog"
+    },
+    {
+      "toggle": true,
+      "slug": "dashboard-filter-attributes"
+    },
+    {
+      "toggle": true,
+      "slug": "hot-news"
+    },
+    {
+      "toggle": true,
+      "slug": "enable-yahoo-rss-authoritative-link"
+    },
+    {
+      "description": null,
+      "slug": "table",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Table",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2149,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 48,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "comment-manager"
+    },
+    {
+      "description": null,
+      "slug": "bigfact",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Bigfact",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2133,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 38,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "facebook",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Facebook",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2138,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 69,
+      "category-name": "Story Elements"
+    },
+    {
+      "config": {
+        "default": {
+          "html": "PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwxLXRyYW5zaXRpb25hbC5kdGQiPg0KPGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIj4NCjxoZWFkPg0KICA8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD1VVEYtOCIgLz4NCiAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiIC8+DQogIDx0aXRsZT4qfE1DOlNVQkpFQ1R8KjwvdGl0bGU+DQogIDxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQogICAgYSB7DQogICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOw0KICAgIGNvbG9yOiAjOUI3MkM5Ow0KICAgIH0NCiAgICBibG9ja3F1b3Rlew0KICAgIGJvcmRlci10b3A6MXB4IHNvbGlkICNjY2NjY2M7DQogICAgYm9yZGVyLWJvdHRvbToxcHggc29saWQgI2NjY2NjYzsNCiAgICBib3JkZXItbGVmdDpub25lOw0KICAgIHBhZGRpbmc6MjVweCAwOw0KICAgIHRleHQtYWxpZ246Y2VudGVyOw0KICAgIGxpbmUtaGVpZ2h0OjMwcHg7DQogICAgZm9udC1mYW1pbHk6ICdmcmVpZ2h0LXRleHQtcHJvLHNlcmlmJzsNCiAgICBmb250LXNpemU6IDEuNWVtOw0KICAgIGZvbnQtc3R5bGU6IGl0YWxpYzsNCiAgICB9DQogIDwvc3R5bGU+DQo8L2hlYWQ+DQo8Ym9keSBiZ2NvbG9yPSIjZjFmMWYxIiBzdHlsZT0ibWFyZ2luOiAwOyBwYWRkaW5nOiAwOyI+DQo8dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIGhlaWdodD0iMTAwJSIgd2lkdGg9IjEwMCUiIGlkPSJib2R5VGFibGUiIHN0eWxlPSJib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyBtYXJnaW46IDA7IHBhZGRpbmc6IDA7Ij4NCiAgPHRyPg0KICAgIDx0ZCBhbGlnbj0iY2VudGVyIiB2YWxpZ249InRvcCIgc3R5bGU9ImJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Ij4NCiAgICAgIDx0YWJsZSBib3JkZXI9IjAiIGNlbGxwYWRkaW5nPSIyMCIgY2VsbHNwYWNpbmc9IjAiIHdpZHRoPSIxMDAlIiBpZD0iZW1haWxDb250YWluZXIiIHN0eWxlPSJib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyI+DQogICAgICAgIDx0cj4NCiAgICAgICAgICA8dGQgYWxpZ249ImNlbnRlciIgdmFsaWduPSJ0b3AiIHN0eWxlPSJib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyI+DQogICAgICAgICAgICA8IS0tIDxhIGlkPSJ2aWV3LWluLWJyb3dzZXIiIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3Lm1vdGhlci5seS9uZXdzbGV0dGVycy90ZWphcy9hcmNoaXZlIj5WaWV3IGluIGJyb3dzZXI8L2E+IC0tPg0KICAgICAgICAgICAgPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiB3aWR0aD0iMTAwJSIgaWQ9ImVtYWlsQ29udGFpbmVyIiBzdHlsZT0iYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsiPg0KICAgICAgICAgICAgICA8dHI+DQogICAgICAgICAgICAgICAgPHRkIHdpZHRoPSI1MCUiIHN0eWxlPSJib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyI+DQogICAgICAgICAgICAgICAgICA8YnIgLz4NCiAgICAgICAgICAgICAgICAgIDxhIGlkPSJsb2dvIiBocmVmPSJodHRwOi8vd3d3Lm1vdGhlci5seS8iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6ICM5QjcyQzk7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZm9udC1zaXplOiAxNHB4OyI+DQogICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwOi8vZDMwczZ5cmxoenB3cW4uY2xvdWRmcm9udC5uZXQvYXNzZXRzL21vdGhlcmx5L21vdGhlcmx5LWhvcml6b250YWwtbG9nby1iOWQwZWE2M2E4MzZkYzkwYTBmMTNjMDQ5ZTE1YTAwNC5wbmciIHdpZHRoPSIxMzIiIGhlaWdodD0iMjAiIHN0eWxlPSJoZWlnaHQ6IGF1dG87IGxpbmUtaGVpZ2h0OiAxMDAlOyBvdXRsaW5lOiBub25lOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGJvcmRlcjogMCBub25lOyIgLz4NCiAgICAgICAgICAgICAgICAgIDwvYT4NCiAgICAgICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICAgICAgPGJyIC8+DQogICAgICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICAgICA8dGQgd2lkdGg9IjUwJSIgYWxpZ249InJpZ2h0IiBpZD0iZGF0ZSIgc3R5bGU9ImJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EgTmV1ZSwgSGVsdmV0aWNhLCBhcmlhbDsgZm9udC1zaXplOiAxMXB4OyBsZXR0ZXItc3BhY2luZzogMnB4OyBjb2xvcjogIzY2NjsgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsiPg0KICAgICAgICAgICAgICAgICAgKnxEQVRFOk0gaiBZfCoNCiAgICAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgPC90YWJsZT4NCiAgICAgICAgICAgIHt7I2ZlYXR1cmVkLXN0b3J5fX0NCiAgICAgICAgICAgICAgICA8YSBjbGFzcz0iaW1nIiBocmVmPSJ7e3NrZXRjaGVzLWhvc3R9fS97e3NsdWd9fSIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xvcjogIzlCNzJDOTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDE0cHg7Ij4NCiAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT0icGFkZGluZzo1Ni4yNSUgMCAwIDA7IHBvc2l0aW9uOnJlbGF0aXZlOyBvdmVyZmxvdzpoaWRkZW47Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9ImJhY2tncm91bmQtaW1hZ2U6IHVybCgne3toZXJvLWNkbi1pbWFnZS11cmx9fScpOyBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyOyBwb3NpdGlvbjphYnNvbHV0ZTsgdG9wOjA7IHJpZ2h0OjA7IGxlZnQ6MDsgYm90dG9tOjA7Ij48L2Rpdj48L2Rpdj4NCiAgICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8ZGl2IGFsaWduPSJsZWZ0IiBzdHlsZT0iZm9udC1mYW1pbHk6IEdlb3JnaWE7IGZvbnQtc2l6ZTogMTNweDsgbGluZS1oZWlnaHQ6IDE0NSU7IGNvbG9yOiAjNDQ0OyBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOyBwYWRkaW5nOiA0MHB4IDIwcHg7Ij4NCg0KICAgICAgICAgICAgICA8aDEgc3R5bGU9ImRpc3BsYXk6IGJsb2NrOyB0ZXh0LWFsaWduOiBjZW50ZXI7IG1hcmdpbi10b3A6IDA7IG1hcmdpbi1ib3R0b206IDEwcHg7IGZvbnQtd2VpZ2h0OiBub3JtYWw7IGxpbmUtaGVpZ2h0OiAxMTAlOyIgYWxpZ249ImNlbnRlciI+DQogICAgICAgICAgICAgICAgPGEgaHJlZj0ie3tza2V0Y2hlcy1ob3N0fX0ve3tzbHVnfX0iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6IGJsYWNrOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGZvbnQtc2l6ZTogMjRweDsgIj57e2hlYWRsaW5lfX08L2E+DQogICAgICAgICAgICAgIDwvaDE+DQogICAgICAgICAgICAgIDxoMiBzdHlsZT0iZGlzcGxheTogYmxvY2s7IHRleHQtYWxpZ246IGNlbnRlcjsgbWFyZ2luLXRvcDogMDsgbWFyZ2luLWJvdHRvbTogMTBweDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgbGluZS1oZWlnaHQ6IDEzMCU7IiBhbGlnbj0iY2VudGVyIj4NCiAgICAgICAgICAgICAgPC9oMj4NCg0KICAgICAgICAgICAgICA8YnIgLz4NCiAgICAgICAgICAgICAge3t7ZXhjZXJwdH19fQ0KDQogICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICA8YnIgLz4NCiAgICAgICAgICAgIHt7L2ZlYXR1cmVkLXN0b3J5fX0NCiAgICAgICAgICAgIDx0YWJsZSBpZD0ibW9yZS1hcnRpY2xlcyIgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIHdpZHRoPSIxMDAlIiBzdHlsZT0iYm9yZGVyLXRvcC13aWR0aDogMXB4OyBib3JkZXItdG9wLWNvbG9yOiAjZGRkOyBib3JkZXItdG9wLXN0eWxlOiBzb2xpZDsgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsiPg0KICAgICAgICAgICAgICA8dHIgdmFsaWduPSJ0b3AiIHN0eWxlPSJwYWRkaW5nLXRvcDogMjBweDsgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsgY2xlYXI6IGJvdGg7IHRleHQtYWxpZ246IGNlbnRlcjsiPg0KICAgICAgICAgICAgICAgIDx0ZCBzdHlsZT0iZm9udC1mYW1pbHk6ICdoZWx2ZXRpY2EgbmV1ZSwgcm9ib3RvLCBjYWxpYnJpLCBzYW5zLXNlcmlmJztmb250LXdlaWdodDogYm9sZDsgcGFkZGluZy10b3A6IDE1cHg7Ij4NCiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHA6Ly93d3cubW90aGVyLmx5L3NpZ24taW4iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6IGJsYWNrOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGZvbnQtc2l6ZTogMTRweDsiPg0KICAgICAgICAgICAgICAgICAgICBXRSBIT1BFIFlPVSdMTCBMSUtFPC9hPjwvdGQ+DQogICAgICAgICAgICAgIDwvdHI+DQogICAgICAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICAgICA8dGQgd2lkdGg9IjUwJSIgdmFsaWduPSJ0b3AiIHN0eWxlPSJwYWRkaW5nLXJpZ2h0OiAyMHB4OyBwYWRkaW5nLXRvcDogMjBweDsgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsgY2xlYXI6IGJvdGg7Ij4NCiAgICAgICAgICAgICAgICAgIHt7I3JlbGF0ZWQtc3RvcnktMX19DQogICAgICAgICAgICAgICAgICAgIDxhIGNsYXNzPSJpbWciIGhyZWY9Int7c2tldGNoZXMtaG9zdH19L3t7c2x1Z319IiB0YXJnZXQ9Il9ibGFuayIgc3R5bGU9ImNvbG9yOiAjOUI3MkM5OyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGZvbnQtc2l6ZTogMTRweDsiPg0KICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9InBhZGRpbmc6NTYuMjUlIDAgMCAwOyBwb3NpdGlvbjpyZWxhdGl2ZTsgb3ZlcmZsb3c6aGlkZGVuOyBtYXJnaW4tYm90dG9tOjVweDsiPg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT0iYmFja2dyb3VuZC1pbWFnZTogdXJsKCd7e2hlcm8tY2RuLWltYWdlLXVybH19Jyk7IGJhY2tncm91bmQtc2l6ZTogY292ZXI7IHBvc2l0aW9uOmFic29sdXRlOyB0b3A6MDsgcmlnaHQ6MDsgbGVmdDowOyBib3R0b206MDsiPjwvZGl2PjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICAgICAgICAgIDxpbWcgc3R5bGU9InBvc2l0aW9uOiByZWxhdGl2ZTsgdG9wOiAzcHg7IG1hcmdpbi1yaWdodDogNXB4OyBmb250LWZhbWlseTogJ2hlbHZldGljYSBuZXVlLCByb2JvdG8sIGNhbGlicmksIHNhbnMtc2VyaWYnOyIgc3JjPSJodHRwOi8vcXVpbnR5cGUtYXNzZXRzLnMzLmFtYXpvbmF3cy5jb20vc3RhZ2luZy9za2V0Y2hlcy9hc3NldHMvbW90aGVybHkvaWNvbnMvbGlmZS03YjZiZmM1ODhjZTBiOGQ4YzU1MDllYTNjNjgzNTBjNy5wbmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+TElGRTxicj4NCiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0ie3tza2V0Y2hlcy1ob3N0fX0ve3tzbHVnfX0iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6IGJsYWNrOyBib3JkZXItYm90dG9tOjFweCBzb2xpZCAjOUI3MkM5OyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGZvbnQtc2l6ZTogMTRweDsiPnt7aGVhZGxpbmV9fTwvYT4NCiAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9ImZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EgTmV1ZSwgSGVsdmV0aWNhLCBhcmlhbDsgZm9udC1zaXplOiAxMXB4OyBtYXJnaW4tdG9wOiA1cHg7IGxpbmUtaGVpZ2h0OiAxNDQlOyI+e3tzdW1tYXJ5fX0NCiAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJ7e3NrZXRjaGVzLWhvc3R9fS97e3NsdWd9fSIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246IG5vbmU7Ij48c3BhbiBzdHlsZT0iY29sb3I6IzlCNzJDOTsiPi4uLjwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6IzlCNzJDOTsgZm9udC13ZWlnaHQ6Ym9sZDsiPlJFQUQgTU9SRTwvc3Bhbj48L2E+PC9wPg0KICAgICAgICAgICAgICAgICAge3svcmVsYXRlZC1zdG9yeS0xfX0NCiAgICAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICA8dHI+DQogICAgICAgICAgICAgICAgPHRkIHdpZHRoPSI1MCUiIHZhbGlnbj0idG9wIiBzdHlsZT0icGFkZGluZy1yaWdodDogMjBweDsgcGFkZGluZy10b3A6IDIwcHg7IGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7IGNsZWFyOiBib3RoOyI+DQogICAgICAgICAgICAgICAgICB7eyNyZWxhdGVkLXN0b3J5LTJ9fQ0KICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0iaW1nIiBocmVmPSJ7e3NrZXRjaGVzLWhvc3R9fS97e3NsdWd9fSIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xvcjogIzlCNzJDOTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDE0cHg7Ij4NCiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPSJwYWRkaW5nOjU2LjI1JSAwIDAgMDsgcG9zaXRpb246cmVsYXRpdmU7IG92ZXJmbG93OmhpZGRlbjsgbWFyZ2luLWJvdHRvbTo1cHg7Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9IiBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJ3t7aGVyby1jZG4taW1hZ2UtdXJsfX0nKTsgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjsgcG9zaXRpb246YWJzb2x1dGU7IHRvcDowOyByaWdodDowOyBsZWZ0OjA7IGJvdHRvbTowOyIgPjwvZGl2PjwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICAgICAgICAgIDxpbWcgc3R5bGU9InBvc2l0aW9uOiByZWxhdGl2ZTsgdG9wOiAzcHg7IG1hcmdpbi1yaWdodDogNXB4OyBmb250LWZhbWlseTogJ2hlbHZldGljYSBuZXVlLCByb2JvdG8sIGNhbGlicmksIHNhbnMtc2VyaWYnOyIgc3JjPSJodHRwOi8vcXVpbnR5cGUtYXNzZXRzLnMzLmFtYXpvbmF3cy5jb20vc3RhZ2luZy9za2V0Y2hlcy9hc3NldHMvbW90aGVybHkvaWNvbnMvd29yay04MGEyNTExYzBmZmUzNGQxMTA2YjRjNDdkZGNmZTI3YS5wbmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+V09SSzxicj4NCiAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0ie3tza2V0Y2hlcy1ob3N0fX0ve3tzbHVnfX0iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6IGJsYWNrOyBib3JkZXItYm90dG9tOjFweCBzb2xpZCAjOUI3MkM5OyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGZvbnQtc2l6ZTogMTRweDsiPnt7aGVhZGxpbmV9fTwvYT4NCiAgICAgICAgICAgICAgICAgICAgPHAgc3R5bGU9ImZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EgTmV1ZSwgSGVsdmV0aWNhLCBhcmlhbDsgZm9udC1zaXplOiAxMXB4OyBtYXJnaW4tdG9wOiA1cHg7IGxpbmUtaGVpZ2h0OiAxNDQlOyI+e3tzdW1tYXJ5fX0NCiAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSJ7e3NrZXRjaGVzLWhvc3R9fS97e3NsdWd9fSIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246IG5vbmU7Ij48c3BhbiBzdHlsZT0iY29sb3I6IzlCNzJDOTsiPi4uLjwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6IzlCNzJDOTsgZm9udC13ZWlnaHQ6Ym9sZDsiPlJFQUQgTU9SRTwvc3Bhbj48L2E+PC9wPg0KICAgICAgICAgICAgICAgICAge3svcmVsYXRlZC1zdG9yeS0yfX0NCiAgICAgICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICA8dHI+DQogICAgICAgICAgICAgICAgPHRkIHdpZHRoPSI1MCUiIHZhbGlnbj0idG9wIiBzdHlsZT0icGFkZGluZy1yaWdodDogMjBweDsgcGFkZGluZy10b3A6IDIwcHg7IGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7IGNsZWFyOiBib3RoOyI+DQogICAgICAgICAgICAgICAgICB7eyNyZWxhdGVkLXN0b3J5LTN9fQ0KICAgICAgICAgICAgICAgICAgICA8YSBjbGFzcz0iaW1nIiBocmVmPSJ7e3NrZXRjaGVzLWhvc3R9fS97e3NsdWd9fSIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xvcjogIzlCNzJDOTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDE0cHg7Ij4NCiAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPSJwYWRkaW5nOjU2LjI1JSAwIDAgMDsgcG9zaXRpb246cmVsYXRpdmU7IG92ZXJmbG93OmhpZGRlbjsgbWFyZ2luLWJvdHRvbTo1cHg7Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9ImJhY2tncm91bmQtaW1hZ2U6IHVybCgne3toZXJvLWNkbi1pbWFnZS11cmx9fScpOyBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyOyBwb3NpdGlvbjphYnNvbHV0ZTsgdG9wOjA7IHJpZ2h0OjA7IGxlZnQ6MDsgYm90dG9tOjA7IiA+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj48L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICAgICAgICA8aW1nIHN0eWxlPSJwb3NpdGlvbjogcmVsYXRpdmU7IHRvcDogM3B4OyBtYXJnaW4tcmlnaHQ6IDVweDsgZm9udC1mYW1pbHk6ICdoZWx2ZXRpY2EgbmV1ZSwgcm9ib3RvLCBjYWxpYnJpLCBzYW5zLXNlcmlmJzsiIHNyYz0iaHR0cDovL3F1aW50eXBlLWFzc2V0cy5zMy5hbWF6b25hd3MuY29tL3N0YWdpbmcvc2tldGNoZXMvYXNzZXRzL21vdGhlcmx5L2ljb25zL2xvdmUtODFkN2Q5ZWI5YjI1M2NjMzE1NDI4Yjk1ZDBlNjIxYWYucG5nIiB3aWR0aD0iMTUiIGhlaWdodD0iMTUiPkxPVkU8YnI+DQogICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Int7c2tldGNoZXMtaG9zdH19L3t7c2x1Z319IiB0YXJnZXQ9Il9ibGFuayIgc3R5bGU9ImNvbG9yOiBibGFjazsgYm9yZGVyLWJvdHRvbToxcHggc29saWQgIzlCNzJDOTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDE0cHg7Ij57e2hlYWRsaW5lfX08L2E+DQogICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPSJmb250LWZhbWlseTogSGVsdmV0aWNhIE5ldWUsIEhlbHZldGljYSwgYXJpYWw7IGZvbnQtc2l6ZTogMTFweDsgbWFyZ2luLXRvcDogNXB4OyBsaW5lLWhlaWdodDogMTQ0JTsiPnt7c3VtbWFyeX19DQogICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0ie3tza2V0Y2hlcy1ob3N0fX0ve3tzbHVnfX0iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOiBub25lOyI+PHNwYW4gc3R5bGU9ImNvbG9yOiM5QjcyQzk7Ij4uLi48L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOiM5QjcyQzk7IGZvbnQtd2VpZ2h0OmJvbGQ7Ij5SRUFEIE1PUkU8L3NwYW4+PC9hPjwvcD4NCiAgICAgICAgICAgICAgICAgIHt7L3JlbGF0ZWQtc3RvcnktM319DQogICAgICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICAgIDx0ZCB3aWR0aD0iNTAlIiB2YWxpZ249InRvcCIgc3R5bGU9InBhZGRpbmctcmlnaHQ6IDIwcHg7IHBhZGRpbmctdG9wOiAyMHB4OyBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOyBjbGVhcjogYm90aDsiPg0KICAgICAgICAgICAgICAgICAge3sjcmVsYXRlZC1zdG9yeS00fX0NCiAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9ImltZyIgaHJlZj0ie3tza2V0Y2hlcy1ob3N0fX0ve3tzbHVnfX0iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6ICM5QjcyQzk7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZm9udC1zaXplOiAxNHB4OyI+DQogICAgICAgICAgICAgICAgICAgICAgPGRpdiBzdHlsZT0icGFkZGluZzo1Ni4yNSUgMCAwIDA7IHBvc2l0aW9uOnJlbGF0aXZlOyBvdmVyZmxvdzpoaWRkZW47IG1hcmdpbi1ib3R0b206NXB4OyI+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IHN0eWxlPSJiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJ3t7aGVyby1jZG4taW1hZ2UtdXJsfX0nKTsgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjsgcG9zaXRpb246YWJzb2x1dGU7IHRvcDowOyByaWdodDowOyBsZWZ0OjA7IGJvdHRvbTowOyI+PC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvYT4NCiAgICAgICAgICAgICAgICAgICAgPGltZyBzdHlsZT0icG9zaXRpb246IHJlbGF0aXZlOyB0b3A6IDNweDsgbWFyZ2luLXJpZ2h0OiA1cHg7IGZvbnQtZmFtaWx5OiAnaGVsdmV0aWNhIG5ldWUsIHJvYm90bywgY2FsaWJyaSwgc2Fucy1zZXJpZic7IiBzcmM9Imh0dHA6Ly9xdWludHlwZS1hc3NldHMuczMuYW1hem9uYXdzLmNvbS9zdGFnaW5nL3NrZXRjaGVzL2Fzc2V0cy9tb3RoZXJseS9pY29ucy9jaGlsZC02NWJiNzQ2OWUyYjU5NDBiYzQzOGEwMjRmNzJhODExZS5wbmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+Q0hJTEQ8YnI+DQogICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Int7c2tldGNoZXMtaG9zdH19L3t7c2x1Z319IiB0YXJnZXQ9Il9ibGFuayIgc3R5bGU9ImNvbG9yOiBibGFjazsgYm9yZGVyLWJvdHRvbToxcHggc29saWQgIzlCNzJDOTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDE0cHg7Ij57e2hlYWRsaW5lfX08L2E+DQogICAgICAgICAgICAgICAgICAgIDxwIHN0eWxlPSJmb250LWZhbWlseTogSGVsdmV0aWNhIE5ldWUsIEhlbHZldGljYSwgYXJpYWw7IGZvbnQtc2l6ZTogMTFweDsgbWFyZ2luLXRvcDogNXB4OyBsaW5lLWhlaWdodDogMTQ0JTsiPnt7c3VtbWFyeX19DQogICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0ie3tza2V0Y2hlcy1ob3N0fX0ve3tzbHVnfX0iIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0idGV4dC1kZWNvcmF0aW9uOiBub25lOyI+PHNwYW4gc3R5bGU9ImNvbG9yOiM5QjcyQzk7Ij4uLi48L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOiM5QjcyQzk7IGZvbnQtd2VpZ2h0OmJvbGQ7Ij5SRUFEIE1PUkU8L3NwYW4+PC9hPjwvcD4NCiAgICAgICAgICAgICAgICAgIHt7L3JlbGF0ZWQtc3RvcnktNH19DQogICAgICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICAgICAgPHRyPg0KICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgPC90YWJsZT4NCiAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDxjZW50ZXI+DQogICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICA8YSBjbGFzcz0iZm9yd2FyZCIgaHJlZj0iKnxGT1JXQVJEfCoiIHN0eWxlPSJjb2xvcjogIzMzMzsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDExcHg7IGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EgTmV1ZSwgSGVsdmV0aWNhLCBhcmlhbDsgZGlzcGxheTogaW5saW5lLWJsb2NrOyBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmOyBwYWRkaW5nOiAxMHB4IDE1cHg7IGJvcmRlcjogMXB4IHNvbGlkICM5QjcyQzk7Ij5TZW5kIHRoaXMgZW1haWwgdG8gYSBmcmllbmQ8L2E+DQogICAgICAgICAgICAgIDxwPg0KICAgICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICAgIDxhIGlkPSJtb25vZ3JhbSIgaHJlZj0iaHR0cDovL3d3dy5tb3RoZXIubHkvIiB0YXJnZXQ9Il9ibGFuayIgc3R5bGU9ImJvcmRlci1ib3R0b20td2lkdGg6IDA7IGNvbG9yOiAjMzMzOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IGZvbnQtc2l6ZTogMTRweDsgYm9yZGVyLWJvdHRvbS1jb2xvcjogIzlCNzJDOTsgYm9yZGVyLWJvdHRvbS1zdHlsZTogc29saWQ7Ij4NCiAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwOi8vZDMwczZ5cmxoenB3cW4uY2xvdWRmcm9udC5uZXQvYXNzZXRzL21vdGhlcmx5L21vbm9ncmFtLWIwNTA4MTU4MzdjNjI5Mzk5Njk0MDIwNzMxNjFkYTUzLnBuZyIgd2lkdGg9IjIxIiBoZWlnaHQ9IjE1IiBzdHlsZT0iaGVpZ2h0OiBhdXRvOyBsaW5lLWhlaWdodDogMTAwJTsgb3V0bGluZTogbm9uZTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBib3JkZXI6IDAgbm9uZTsiIC8+DQogICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICA8L3A+DQogICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICA8c3BhbiBpZD0iZm9vdGVyIiBzdHlsZT0iZm9udC1mYW1pbHk6IEhlbHZldGljYSBOZXVlLCBIZWx2ZXRpY2EsIGFyaWFsOyBmb250LXNpemU6IDExcHg7Ij4NCiAgICAgICAgICAgICAgICA8cD4qfExJU1Q6REVTQ1JJUFRJT058KjwvcD4NCiAgICAgICAgICAgICAgICA8YSBocmVmPSIqfFVOU1VCfCoiIHN0eWxlPSJjb2xvcjogIzMzMzsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDExcHg7IGJvcmRlci1ib3R0b20tY29sb3I6ICM5QjcyQzk7IGJvcmRlci1ib3R0b20tc3R5bGU6IHNvbGlkOyBib3JkZXI6IDA7Ij5VbnN1YnNjcmliZTwvYT4NCiAgICAgICAgICAgICAgICA8YnIgLz4NCiAgICAgICAgICAgICAgICA8YnIgLz4NCiAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT0iY29sb3I6ICM5OTk7Ij4NCiAgICAgICAgICAgICAgICAgIMKpIDIwMTUgTW90aGVybHkgTWVkaWEsIEluYy4gQm9ybiBpbiBDYWxpZm9ybmlhLjxiciAvPg0KICAgICAgICAgICAgICAgICAgPGJyIC8+DQogICAgICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL3d3dy5mYWNlYm9vay5jb20vbW90aGVybHltZWRpYSIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xvcjogIzMzMzsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBmb250LXNpemU6IDExcHg7IGJvcmRlci1ib3R0b20tY29sb3I6ICM5QjcyQzk7IGJvcmRlci1ib3R0b20tc3R5bGU6IHNvbGlkOyBib3JkZXI6IDA7Ij4NCiAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHA6Ly9kMzBzNnlybGh6cHdxbi5jbG91ZGZyb250Lm5ldC9hc3NldHMvbW90aGVybHkvbmV3c2xldHRlci1mYWNlYm9vay0zZWM2NjE1M2I2NmNiZDQyMDIzNWNjNWI3ODljYmQzZi5wbmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgc3R5bGU9ImhlaWdodDogYXV0bzsgbGluZS1oZWlnaHQ6IDEwMCU7IG91dGxpbmU6IG5vbmU7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgYm9yZGVyOiAwIG5vbmU7IiAvPg0KICAgICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9tb3RoZXIubHkiIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6ICMzMzM7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgZm9udC1zaXplOiAxMXB4OyBib3JkZXItYm90dG9tLWNvbG9yOiAjOUI3MkM5OyBib3JkZXItYm90dG9tLXN0eWxlOiBzb2xpZDsgYm9yZGVyOiAwOyI+DQogICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwOi8vZDMwczZ5cmxoenB3cW4uY2xvdWRmcm9udC5uZXQvYXNzZXRzL21vdGhlcmx5L25ld3NsZXR0ZXItaW5zdGFncmFtLTMzZGEzMDZjMDEyNzhiYjA2M2Y0ZWU4NjliZmZlMjc5LnBuZyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiBzdHlsZT0iaGVpZ2h0OiBhdXRvOyBsaW5lLWhlaWdodDogMTAwJTsgb3V0bGluZTogbm9uZTsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyBib3JkZXI6IDAgbm9uZTsiIC8+DQogICAgICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICAgICAgPC9zcGFuPg0KICAgICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICAgIDxiciAvPg0KICAgICAgICAgICAgICA8L3NwYW4+DQogICAgICAgICAgICA8L2NlbnRlcj4NCiAgICAgICAgICA8L3RkPg0KICAgICAgICA8L3RyPg0KICAgICAgPC90YWJsZT4NCiAgICA8L3RkPg0KICA8L3RyPg0KPC90YWJsZT4NCjwvYm9keT4NCjwvaHRtbD4NCg=="
+        }
+      },
+      "slug": "newsletter-templates"
+    },
+    {
+      "description": null,
+      "slug": "tag-recommendation",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Tag Recommendation",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2132,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 71,
+      "category-name": "Features"
+    },
+    {
+      "config": {
+        "smartformat": {
+          "advertisement": {
+            "content": "PHNjcmlwdCBhc3luYz0nYXN5bmMnIHNyYz0naHR0cHM6Ly93d3cuZ29vZ2xldGFnc2VydmljZXMuY29tL3RhZy9qcy9ncHQuanMnPjwvc2NyaXB0Pgo8c2NyaXB0PgogIHZhciBnb29nbGV0YWcgPSBnb29nbGV0YWcgfHwge307CiAgZ29vZ2xldGFnLmNtZCA9IGdvb2dsZXRhZy5jbWQgfHwgW107Cjwvc2NyaXB0PgoKPHNjcmlwdD4KICBnb29nbGV0YWcuY21kLnB1c2goZnVuY3Rpb24oKSB7CiAgICBnb29nbGV0YWcuZGVmaW5lU2xvdCgnLzUyODY4ODgyL1RRX1NtYXJ0bmV3c18zMDB4MjUwJywgWzMwMCwgMjUwXSwgJ2Rpdi1ncHQtYWQtMTQ5Njk4MzQ2NjU0Ni0wJykuYWRkU2VydmljZShnb29nbGV0YWcucHViYWRzKCkpOwogICAgZ29vZ2xldGFnLnB1YmFkcygpLmVuYWJsZVNpbmdsZVJlcXVlc3QoKTsKICAgIGdvb2dsZXRhZy5lbmFibGVTZXJ2aWNlcygpOwogIH0pOwo8L3NjcmlwdD4KCgo8IS0tIC81Mjg2ODg4Mi9UUV9TbWFydG5ld3NfMzAweDI1MCAtLT4KPGRpdiBpZD0nZGl2LWdwdC1hZC0xNDk2OTgzNDY2NTQ2LTAnIHN0eWxlPSdoZWlnaHQ6MjUwcHg7IHdpZHRoOjMwMHB4Oyc+CjxzY3JpcHQ+Cmdvb2dsZXRhZy5jbWQucHVzaChmdW5jdGlvbigpIHsgZ29vZ2xldGFnLmRpc3BsYXkoJ2Rpdi1ncHQtYWQtMTQ5Njk4MzQ2NjU0Ni0wJyk7IH0pOwo8L3NjcmlwdD4KPC9kaXY+"
+          }
+        }
+      },
+      "slug": "smartnews"
+    },
+    {
+      "description": null,
+      "slug": "my-template",
+      "name": "My Template",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1750,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": "card-share-feature should be true",
+      "slug": "card-level-share",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Card Level Share",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2123,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 15,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "recipe",
+      "name": "Recipe",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1231,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "image-gallery",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Image Gallery",
+      "default-value": true,
+      "default-value-for-lite-publisher": true,
+      "feature-id": 2152,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 36,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "non-blocking-story-save",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Non blocking story save",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2110,
+      "config-schema": null,
+      "toggle": false,
+      "category-id": 1,
+      "hidden": false,
+      "id": 67,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "demo-2",
+      "name": "Demo 2",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1722,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "sorter-story-views"
+    },
+    {
+      "toggle": true,
+      "slug": "story-collection-price"
+    },
+    {
+      "toggle": true,
+      "slug": "dev-analytics-reports"
+    },
+    {
+      "description": null,
+      "slug": "push-notification",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Push Notifications",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2157,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 3,
+      "hidden": false,
+      "id": 79,
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "news-elsewhere",
+      "description": null,
+      "name": "News Elsewhere",
+      "category-id": 3,
+      "id": 1234,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "analytics-share-button"
+    },
+    {
+      "description": null,
+      "slug": "tag-manager",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Tag Manager",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2150,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 56,
+      "category-name": "Features"
+    },
+    {
+      "toggle": true,
+      "slug": "polltype-edit-published"
+    },
+    {
+      "toggle": true,
+      "slug": "checkbox-for-published-stories"
+    },
+    {
+      "toggle": true,
+      "slug": "story-collection-issue-month"
+    },
+    {
+      "toggle": true,
+      "slug": "must-have-hero-image-focus-point"
+    },
+    {
+      "description": null,
+      "slug": "story-recommendation",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Story Recommendation",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2137,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 72,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "social-media",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 9,
+      "config": null,
+      "name": "Social Media",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2129,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 28,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "question",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Question",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2113,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 59,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "view-counterview",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "View Counterview",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2134,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 42,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "entities",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Entities",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2144,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 16,
+      "category-name": "Features"
+    },
+    {
+      "description": "Highly experimental, under development.",
+      "slug": "story-error-messages",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Story error messages",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2115,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 64,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "q-and-a",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 8,
+      "config": null,
+      "name": "Q & A",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2153,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 27,
+      "category-name": "Story Elements"
+    },
+    {
+      "config": ". Read more on",
+      "slug": "rss-authoritative-link-prefix"
+    },
+    {
+      "toggle": true,
+      "slug": "image-attribution"
+    },
+    {
+      "description": null,
+      "slug": "references",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "References",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2145,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 39,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "analytics-trending-collection"
+    },
+    {
+      "description": null,
+      "slug": "story-collection-associated-metadata",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Collection Associated Metadata",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2355,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 86,
+      "category-name": "Features"
+    },
+    {
+      "toggle": true,
+      "slug": "story-index"
+    },
+    {
+      "description": null,
+      "slug": "demo-123",
+      "name": "Demo 123",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1738,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "filter-list",
+      "default-config": {},
+      "disabled": true,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Filter List",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2126,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": true,
+      "id": 50,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "title",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Title",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2148,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 70,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "card-level-attributes"
+    },
+    {
+      "toggle": true,
+      "slug": "analytics-time-range-redesign"
+    },
+    {
+      "config": {
+        "logo-url": "https://thequint-web.staging.quintype.io/images/news-editors-pick-logo.png"
+      },
+      "slug": "google-news-editors-pick"
+    },
+    {
+      "description": null,
+      "slug": "dilmot",
+      "name": "Dilmot",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1732,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "jwplayer",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Video (JwPlayer)",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2140,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 34,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "summary",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 1,
+      "config": null,
+      "name": "Summary",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2119,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 20,
+      "category-name": "Story Elements"
+    },
+    {
+      "config": "",
+      "slug": "rss-authoritative-link-suffix"
+    },
+    {
+      "toggle": true,
+      "slug": "canonical-url"
+    },
+    {
+      "description": null,
+      "slug": "test-1",
+      "name": "Test 1",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1718,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "subsections",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Enable Sub Section",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2135,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 41,
+      "category-name": "Features"
+    },
+    {
+      "toggle": true,
+      "slug": "public-preview-link"
+    },
+    {
+      "description": null,
+      "slug": "change-story-template",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Change Story Template",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2136,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 65,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "big-story",
+      "name": "big story",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1733,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "enable-all-rss-authoritative-link"
+    },
+    {
+      "toggle": true,
+      "slug": "media-library"
+    },
+    {
+      "toggle": true,
+      "slug": "review",
+      "description": null,
+      "name": "Review",
+      "category-id": 3,
+      "id": 1233,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "alterative-headline-and-image",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Alternative Headline And Image",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2122,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 17,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "create-and-edit-roles",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Create and edit roles",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2117,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": true,
+      "id": 55,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "select-features-page",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Select Features Page",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2139,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": true,
+      "id": 57,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "quote",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 6,
+      "config": null,
+      "name": "Quote",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2112,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 25,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "photo",
+      "name": "Photo Story",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1230,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "analytics-dashboard-state-url"
+    },
+    {
+      "toggle": true,
+      "slug": "interview",
+      "description": null,
+      "name": "Interview",
+      "category-id": 3,
+      "id": 1235,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "also-read",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Also Read",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2130,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 31,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "story-canvas",
+      "default-config": {
+        "story-save-timeout": 60000
+      },
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Story Canvas",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2266,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": true,
+      "id": 83,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "jsembed",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 4,
+      "config": null,
+      "name": "JS Embed",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2143,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 23,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "create-photo-story"
+    },
+    {
+      "description": null,
+      "slug": "answer",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Answer",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2124,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 60,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "push-notifications"
+    },
+    {
+      "description": null,
+      "slug": "my-customise-temp",
+      "name": "My Customise Temp",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1751,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "opinion-poll-anon"
+    },
+    {
+      "toggle": true,
+      "slug": "story-preview"
+    },
+    {
+      "description": null,
+      "slug": "test-2",
+      "name": "Test 2",
+      "toggle": false,
+      "category-id": 3,
+      "id": 1719,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "query-optimization"
+    },
+    {
+      "description": null,
+      "slug": "getty-images",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Getty Images",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2226,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 82,
+      "category-name": "Features"
+    },
+    {
+      "description": "Add schema.org Claim Review to every story.",
+      "slug": "claim-review",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Claim Review",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2128,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 61,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "submenus",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Enable Sub Menu",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2131,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 40,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "story-sorters",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Top Story Sorter",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2125,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 58,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "template-new1",
+      "name": "template new1",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1725,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "image",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 3,
+      "config": null,
+      "name": "Image",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2142,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 22,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "template-new",
+      "name": "template new",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1724,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "new-temp",
+      "name": "New Temp",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1735,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "alternate-headline-and-hero-image"
+    },
+    {
+      "config": {
+        "enabled": true,
+        "valid-magnitudes": [
+          -1,
+          1
+        ]
+      },
+      "slug": "voting"
+    },
+    {
+      "description": null,
+      "slug": "live-blog",
+      "name": "Live Blog",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1236,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "vidible-video",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Video (Vidible)",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2111,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 30,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "create-listicle"
+    },
+    {
+      "toggle": true,
+      "slug": "polltype-hero-image"
+    },
+    {
+      "toggle": true,
+      "slug": "create-video-story"
+    },
+    {
+      "toggle": true,
+      "slug": "live-blog-key-events"
+    },
+    {
+      "description": null,
+      "slug": "planner",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Planner",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2151,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 49,
+      "category-name": "Features"
+    },
+    {
+      "toggle": true,
+      "slug": "card-share-feature"
+    },
+    {
+      "description": null,
+      "slug": "location",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 5,
+      "config": null,
+      "name": "Location",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2141,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 24,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "story-collection"
+    },
+    {
+      "toggle": true,
+      "slug": "amp-shrubbery"
+    },
+    {
+      "description": null,
+      "slug": "demo-1",
+      "name": "Demo 1",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1721,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "toggle": true,
+      "slug": "analytics-newsletter"
+    },
+    {
+      "toggle": true,
+      "slug": "kinesis-publish-story"
+    },
+    {
+      "description": null,
+      "slug": "blurb",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 7,
+      "config": null,
+      "name": "Blurb",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2155,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 26,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "enable-additional-collection-metadata"
+    },
+    {
+      "description": null,
+      "slug": "dilmot-q-and-a",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Ask Me Anything (Dilmot)",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2146,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 32,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "access-level-values",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Subscriptions",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2265,
+      "config-schema": null,
+      "toggle": false,
+      "category-id": 1,
+      "hidden": false,
+      "id": 84,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "blockquote",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Blockquote",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2118,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 37,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "breaking-news",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Breaking News",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2158,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 3,
+      "hidden": false,
+      "id": 80,
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "opinion-poll",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Polltype",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2114,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 29,
+      "category-name": "Story Elements"
+    },
+    {
+      "toggle": true,
+      "slug": "personalization-by-sections"
+    },
+    {
+      "description": null,
+      "slug": "story-listicle",
+      "name": "Story Listicle",
+      "toggle": true,
+      "category-id": 3,
+      "id": 1232,
+      "content-type": "story",
+      "category-name": "Story Templates"
+    },
+    {
+      "description": null,
+      "slug": "email-after-story-publish",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 99999,
+      "config": null,
+      "name": "Email on Story Publish",
+      "default-value": false,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2127,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 1,
+      "hidden": false,
+      "id": 18,
+      "category-name": "Features"
+    },
+    {
+      "description": null,
+      "slug": "attachment",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 3,
+      "config": null,
+      "name": "Attachment Element",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2154,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 63,
+      "category-name": "Story Elements"
+    },
+    {
+      "description": null,
+      "slug": "text",
+      "default-config": {},
+      "disabled": false,
+      "sort-order": 2,
+      "config": null,
+      "name": "Text",
+      "default-value": true,
+      "default-value-for-lite-publisher": false,
+      "feature-id": 2121,
+      "config-schema": null,
+      "toggle": true,
+      "category-id": 2,
+      "hidden": false,
+      "id": 21,
+      "category-name": "Story Elements"
+    },
+    {
+      "config": [
+        {
+          "name": "Home Page Layout",
+          "slug": "home-page-layout",
+          "type": "array",
+          "defaultValue": "Default",
+          "values": [
+            "Default",
+            "Black",
+            "White",
+            "Photo Essays",
+            "Main Stories"
+          ]
+        },
+        {
+          "name": "Description",
+          "slug": "description",
+          "type": "string",
+          "locations": [
+            "collection-rhs"
+          ]
+        },
+        {
+          "name": "Image",
+          "slug": "image",
+          "type": "string",
+          "locations": [
+            "collection-rhs"
+          ]
+        },
+        {
+          "name": "Color",
+          "slug": "color",
+          "type": "string",
+          "locations": [
+            "collection-rhs"
+          ]
+        }
+      ],
+      "slug": "additional-collection-metadata-fields"
+    },
+    {
+      "toggle": true,
+      "slug": "enable-yahoo-rss-backlinks"
+    }
+  ]
+}

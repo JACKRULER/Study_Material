@@ -1,0 +1,15 @@
+{
+  "story-attributes": [
+    {
+      "type": "story",
+      "name": "attrtc16",
+      "values": [
+        "T14",
+        "T15"
+      ],
+      "display-name": "Attr_TC_16",
+      "attribute-level": "single",
+      "data-type": "multi-valued-strings"
+    }
+  ]
+}

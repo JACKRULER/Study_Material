@@ -1,0 +1,206 @@
+{
+  "tree": [
+    {
+      "content-id": "new-0",
+      "content-type": "card",
+      "card-type": "introduction",
+      "client-id": "client-card-0.938382788418274"
+    },
+    {
+      "content-id": "new-1",
+      "content-type": "card",
+      "client-id": "client-card-0.7899864784822144"
+    },
+    {
+      "content-id": "new-2",
+      "content-type": "card",
+      "client-id": "client-card-0.2890835280110142"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-0": {
+      "story-elements": [
+        {
+          "type": "text",
+          "id": "new-tex-0",
+          "client-id": "client-story-element-0.8835846794853419",
+          "metadata": {},
+          "text": "<p>Some Intro:</p>"
+        }
+      ],
+      "client-id": "client-card-0.938382788418274"
+    },
+    "new-1": {
+      "story-elements": [
+        {
+          "type": "title",
+          "id": "new-title-1",
+          "client-id": "client-story-element-0.2766048147069886",
+          "metadata": {},
+          "text": "Title 1"
+        },
+        {
+          "type": "image",
+          "id": "new-image-1",
+          "client-id": "client-story-element-0.8745423993587937",
+          "metadata": {},
+          "image-url": "http://d9zv4zsfqrm9s.cloudfront.net/qa/2018-02/1701ef11-3068-424f-9e9d-c45b778f2ecf/A3.jpg",
+          "image-metadata": {
+            "width": 380,
+            "mime-type": "image/jpeg",
+            "focus-point": [
+              121,
+              122
+            ],
+            "height": 257
+          },
+          "image-s3-key": "qa/2018-02/1701ef11-3068-424f-9e9d-c45b778f2ecf/A3.jpg",
+          "image-attribution": "",
+          "title": "A3"
+        },
+        {
+          "type": "text",
+          "id": "new-body-1",
+          "client-id": "client-story-element-0.5734438907831034",
+          "metadata": {},
+          "text": "<p>Text for this 1st card.</p>"
+        }
+      ],
+      "client-id": "client-card-0.7899864784822144"
+    },
+    "new-2": {
+      "story-elements": [
+        {
+          "type": "title",
+          "id": "new-title-2",
+          "client-id": "client-story-element-0.72967112071692",
+          "metadata": {},
+          "text": "Title 2"
+        },
+        {
+          "type": "image",
+          "id": "new-image-2",
+          "client-id": "client-story-element-0.9084233583632826",
+          "metadata": {},
+          "image-url": "http://d9zv4zsfqrm9s.cloudfront.net/qa/2018-02/643b7ef1-f9ba-454f-a8cb-8ba8062d8ca9/A5.jpg",
+          "image-metadata": {
+            "width": 640,
+            "height": 400
+          },
+          "image-s3-key": "qa/2018-02/643b7ef1-f9ba-454f-a8cb-8ba8062d8ca9/A5.jpg",
+          "image-attribution": "QWE",
+          "title": "ASD"
+        },
+        {
+          "type": "text",
+          "id": "new-body-2",
+          "client-id": "client-story-element-0.06881333672403689",
+          "metadata": {},
+          "text": "<p>Text for this 2nd card</p>"
+        }
+      ],
+      "client-id": "client-card-0.2890835280110142"
+    },
+    "new-3": {
+      "story-elements": [
+        {
+          "type": "title",
+          "id": "new-title-3",
+          "client-id": "client-story-element-0.6021507204723324",
+          "metadata": {}
+        },
+        {
+          "type": "image",
+          "id": "new-image-3",
+          "client-id": "client-story-element-0.879691097556903",
+          "metadata": {}
+        },
+        {
+          "type": "text",
+          "id": "new-body-3",
+          "client-id": "client-story-element-0.23045909743732484",
+          "metadata": {},
+          "text": "<p><br></p>"
+        }
+      ],
+      "client-id": "client-card-0.011102189005508523"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false,
+    "number-cards": true
+  },
+  "story-template": "listicle",
+  "metadata": {},
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "updated-cards": [
+    "new-0",
+    "new-1",
+    "new-2",
+    "new-3"
+  ],
+  "headline": "Listicle",
+  "hero-image-url": "https://quintype-dropbox-accelerated.s3-accelerate.amazonaws.com/qa.staging.quintype.com/2018-02-05/293/cod-aw-18745.jpg",
+  "hero-image-metadata": {
+    "width": 1280,
+    "height": 720,
+    "mime-type": "image/jpeg",
+    "focus-point": [
+      593,
+      413
+    ]
+  },
+  "temporary-hero-image-key": "qa.staging.quintype.com/2018-02-05/293/cod-aw-18745.jpg",
+  "hero-image-attribution": "Game",
+  "hero-image-caption": "Guns",
+  "summary": "Social Msg !!",
+  "tags": [
+    {
+      "id": 168517,
+      "name": "test",
+      "meta-description": null
+    }
+  ],
+  "sections": [
+    {
+      "id": 6533,
+      "name": "News",
+      "publisher-id": 107,
+      "updated-at": 1517472077282,
+      "deleted-at": null,
+      "slug": "news",
+      "display-name": null,
+      "parent-id": null,
+      "collection-id": null,
+      "pathString": "News"
+    }
+  ],
+  "author-id": 181594,
+  "author-name": "Tester",
+  "authors": [
+    {
+      "updated-at": 1517482269765,
+      "email": "qa@gmail.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Tester",
+      "avatar-url": null,
+      "source": null,
+      "first-name": null,
+      "communication-email": "testerquint@gmail.com",
+      "bio": null,
+      "id": 181594,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517481589410
+    }
+  ]
+}

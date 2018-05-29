@@ -1,0 +1,35 @@
+{
+  "id":null,
+  "name":"cooool",
+  "summary":"",
+  "type":"content",
+  "story-content-ids":[
+    6071
+  ],
+  "metadata":{
+    "cover-image":{
+
+    }
+  },
+  "access":null,
+  "price-amount":null,
+  "price-currency":null,
+  "collection-date":null,
+  "items":[
+    {
+      "id":"6071",
+      "threshold":null,
+      "type":"collection",
+      "associated-metadata":{
+        "layout":"TwoColOneAd"
+      }
+    }
+  ],
+  "rules":{
+
+  },
+  "data-source":"manual",
+  "template":"default",
+  "slug":"",
+  "automated":false
+}

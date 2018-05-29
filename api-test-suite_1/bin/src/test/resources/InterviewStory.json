@@ -1,0 +1,187 @@
+{
+  "tree": [
+    {
+      "content-id": "new-0",
+      "content-type": "card",
+      "client-id": "client-card-0.11933377439115578"
+    },
+    {
+      "content-id": "new-1",
+      "content-type": "card",
+      "client-id": "client-card-0.910498087921086"
+    },
+    {
+      "content-id": "new-2",
+      "content-type": "card",
+      "client-id": "client-card-0.4978676051890081"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-0": {
+      "story-elements": [
+        {
+          "type": "text",
+          "subtype": "question",
+          "id": "new-question-0",
+          "client-id": "client-story-element-0.9916256989737402",
+          "metadata": {},
+          "text": "<p>Question 1</p>"
+        },
+        {
+          "type": "text",
+          "subtype": "answer",
+          "id": "new-answer-0",
+          "client-id": "client-story-element-0.353730198605519",
+          "metadata": {},
+          "text": "<p>Answer 1</p>"
+        }
+      ],
+      "client-id": "client-card-0.11933377439115578"
+    },
+    "new-1": {
+      "story-elements": [
+        {
+          "type": "text",
+          "subtype": "question",
+          "id": "new-question-0",
+          "client-id": "client-story-element-0.1107441829929503",
+          "metadata": {},
+          "text": "<p>Question 2</p>"
+        },
+        {
+          "type": "text",
+          "subtype": "answer",
+          "id": "new-answer-0",
+          "client-id": "client-story-element-0.29442311293739176",
+          "metadata": {},
+          "text": "<p>Answer 2</p>"
+        }
+      ],
+      "client-id": "client-card-0.910498087921086"
+    },
+    "new-2": {
+      "story-elements": [
+        {
+          "type": "text",
+          "subtype": "question",
+          "id": "new-question-0",
+          "client-id": "client-story-element-0.8575094197412163",
+          "metadata": {},
+          "text": "<p>Question 3</p>"
+        },
+        {
+          "type": "text",
+          "subtype": "answer",
+          "id": "new-answer-0",
+          "client-id": "client-story-element-0.9778722077217694",
+          "metadata": {},
+          "text": "<p>Answer 3</p>"
+        }
+      ],
+      "client-id": "client-card-0.4978676051890081"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false,
+    "must-have-some-question-or-answer": true
+  },
+  "story-template": "interview",
+  "metadata": {},
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "headline": "Interview Story",
+  "subheadline": "Subtitle for this story",
+  "hero-image-url": "https://quintype-dropbox-accelerated.s3-accelerate.amazonaws.com/qa.staging.quintype.com/2018-03-08/1614/96cf3f3b-b6f4-4eb1-a65c-cf6bad570bb0.jpg",
+  "hero-image-metadata": {
+    "width": 1920,
+    "height": 1200,
+    "mime-type": "image/jpeg",
+    "focus-point": [
+      851,
+      645
+    ]
+  },
+  "temporary-hero-image-key": "qa.staging.quintype.com/2018-03-08/1614/96cf3f3b-b6f4-4eb1-a65c-cf6bad570bb0.jpg",
+  "hero-image-attribution": "Attribution",
+  "hero-image-caption": "Image Caption",
+  "updated-cards": [
+    "new-0",
+    "new-1",
+    "new-2"
+  ],
+  "summary": "Social Share Message 123",
+  "tags": [
+    {
+      "name": "asd"
+    }
+  ],
+  "sections": [
+    {
+      "id": 6533,
+      "name": "News",
+      "publisher-id": 107,
+      "updated-at": 1517472077282,
+      "deleted-at": null,
+      "slug": "news",
+      "display-name": null,
+      "parent-id": null,
+      "collection-id": null,
+      "pathString": "News"
+    }
+  ],
+  "seo": {
+    "meta-description": "SEO Meta Description",
+    "meta-title": "SEO Meta Title",
+    "meta-keywords": [
+      "SEO",
+      "Keywords"
+    ],
+    "meta-google-news-standout": false,
+    "claim-reviews": {
+      "story": {
+        "enabled": false,
+        "claim-review": {
+          "itemReviewed": {
+            "author": {
+              "name": "",
+              "sameAs": ""
+            },
+            "datePublished": "2018-03-08"
+          },
+          "claimReviewed": "",
+          "reviewRating": {
+            "ratingValue": "-1",
+            "alternateName": "Hard to categorize"
+          }
+        }
+      }
+    }
+  },
+  "author-id": 181675,
+  "author-name": "Sachin S Dhingra",
+  "authors": [
+    {
+      "updated-at": 1517923719961,
+      "email": "sachin@quintype.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Sachin S Dhingra",
+      "avatar-url": "https://lh3.googleusercontent.com/-R6WXPJC81PE/AAAAAAAAAAI/AAAAAAAAAAA/qmKcDOM2O2I/photo.jpg?sz=50",
+      "source": null,
+      "first-name": null,
+      "communication-email": null,
+      "bio": null,
+      "id": 181675,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517907077824
+    }
+  ]
+}

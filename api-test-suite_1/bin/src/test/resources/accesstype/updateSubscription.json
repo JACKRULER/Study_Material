@@ -1,0 +1,10 @@
+{
+"subscription": {
+"metadata":  {
+"full-name": "hello-world",
+"email": "hello@quintype.com"
+}
+}
+}
+
+// curl -H "X-SUBAUTH: <auth-token>" -X PATCH -H "Content-Type: application/json" https://subtype.quintype.com/api/v1/subscribers/<provider>/<identity>/subscriptions/<id>.json -d

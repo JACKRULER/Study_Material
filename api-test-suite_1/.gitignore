@@ -1,0 +1,9 @@
+.idea/
+.target/
+/target/
+/test-output
+/.settings
+/.project
+/.classpath
+/apitest.iml
+*.DS_Store

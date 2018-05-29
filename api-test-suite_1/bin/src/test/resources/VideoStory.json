@@ -1,0 +1,97 @@
+{
+  "tree": [
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.5926065474265927",
+      "client-id": "card-0.7683509840118312"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-card-0.5926065474265927": {
+      "story-elements": [
+        {
+          "type": "youtube-video",
+          "id": "new-0.9481240749505058",
+          "client-id": "client-card-0.5494000549386038",
+          "metadata": {},
+          "embed-js": "Tm8geW91dHViZSB2aWRlbyBmb3VuZCBmb3IgdGhpcyBVUkw=",
+          "url": "https://www.youtube.com/watch?v=EPGtYBRsHoo",
+          "embed-url": null
+        }
+      ],
+      "client-id": "card-0.7683509840118312"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false,
+    "must-have-video": true
+  },
+  "story-template": "video",
+  "metadata": {},
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "headline": "Video",
+  "updated-cards": [
+    "new-card-0.5926065474265927"
+  ],
+  "hero-image-url": "https://quintype-dropbox-accelerated.s3-accelerate.amazonaws.com/qa.staging.quintype.com/2018-02-05/1468/D.jpg",
+  "hero-image-metadata": {
+    "width": 640,
+    "height": 287,
+    "mime-type": "image/jpeg",
+    "focus-point": [
+      336,
+      113
+    ]
+  },
+  "temporary-hero-image-key": "qa.staging.quintype.com/2018-02-05/1468/D.jpg",
+  "hero-image-attribution": "Solider",
+  "hero-image-caption": "Plane",
+  "summary": "Message!!!",
+  "tags": [
+    {
+      "name": "asd"
+    }
+  ],
+  "sections": [
+    {
+      "id": 6533,
+      "name": "News",
+      "publisher-id": 107,
+      "updated-at": 1517472077282,
+      "deleted-at": null,
+      "slug": "news",
+      "display-name": null,
+      "parent-id": null,
+      "collection-id": null,
+      "pathString": "News"
+    }
+  ],
+  "author-id": 181594,
+  "author-name": "Tester",
+  "authors": [
+    {
+      "updated-at": 1517482269765,
+      "email": "qa@gmail.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Tester",
+      "avatar-url": null,
+      "source": null,
+      "first-name": null,
+      "communication-email": "testerquint@gmail.com",
+      "bio": null,
+      "id": 181594,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517481589410
+    }
+  ]
+}

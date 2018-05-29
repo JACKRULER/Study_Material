@@ -1,0 +1,102 @@
+{
+  "metadata": {
+
+  },
+  "story-content-id": "new",
+  "headline": "Breaking news + title",
+  "associated-story": {
+    "story-content-id": "new",
+    "tree": [
+      {
+        "client-id": "card-0.7760812770207588",
+        "content-id": "new-card-0.03056340595121898",
+        "content-type": "card"
+      }
+    ],
+    "updated-cards": [
+
+    ],
+    "status": "approved",
+    "cards": {
+      "new-card-0.03056340595121898": {
+        "client-id": "card-0.7760812770207588",
+        "story-elements": [
+          {
+            "client-id": "client-story-element-0.38832001384090886",
+            "id": "new-story-element-0.02956644573374767",
+            "metadata": {
+
+            },
+            "text": "<p>Rahul in Bangalore<\/p>",
+            "type": "text"
+          }
+        ]
+      }
+    },
+    "publish-at": null,
+    "metadata": {
+
+    },
+    "push-notification-targets": {
+      "web": false,
+      "mobile": false
+    },
+    "authors": [
+      {
+        "updated-at": 1518601061245,
+        "email": "radhika@quintype.com",
+        "last-name": null,
+        "publisher-id": 107,
+        "name": "Radhika Chinagangu",
+        "avatar-url": "https:\/\/lh3.googleusercontent.com\/-16_t1Nsa4v8\/AAAAAAAAAAI\/AAAAAAAAAAA\/CY72l5Nuh10\/photo.jpg?sz=50",
+        "source": null,
+        "first-name": null,
+        "communication-email": null,
+        "bio": null,
+        "id": 181711,
+        "avatar-s3-key": null,
+        "twitter-handle": null,
+        "created-at": 1518601032859
+      }
+    ],
+    "private-fields": {
+      "editor-notes": ""
+    },
+    "hero-image-metadata": {
+      "width": 380,
+      "height": 257,
+      "mime-type": "image\/jpeg",
+      "focus-point": [
+        121,
+        122
+      ]
+    },
+    "hero-image-attribution": "Attribute",
+    "hero-image-s3-key": "qa\/2018-02\/d6fc7a7f-4cbc-477a-84f2-23816d0df831\/A3.jpg",
+    "hero-image-caption": "A3",
+    "hero-image-url": "http:\/\/d9zv4zsfqrm9s.cloudfront.net\/qa\/2018-02\/d6fc7a7f-4cbc-477a-84f2-23816d0df831\/A3.jpg",
+    "seo": {
+      "meta-title": "Breaking news + title",
+      "meta-description": "Breaking news + title"
+    },
+    "author-id": 181711,
+    "author-name": "Radhika Chinagangu",
+    "sections": [
+      {
+        "id": 6682,
+        "name": "Test Section: 13 Apr 2018, 09:15:42",
+        "publisher-id": 107,
+        "updated-at": 1523610942340,
+        "deleted-at": null,
+        "slug": "test-section-13-apr-2018-091542",
+        "display-name": "Test Section: 13 Apr 2018, 09:15:42",
+        "parent-id": null,
+        "collection-id": 5813,
+        "pathString": "Test Section: 13 Apr 2018, 09:15:42"
+      }
+    ],
+    "summary": "Breaking news + title",
+    "subheadline": "Breaking news + title",
+    "headline": "Breaking news + title"
+  }
+}

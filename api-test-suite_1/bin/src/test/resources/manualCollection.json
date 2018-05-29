@@ -1,0 +1,51 @@
+{
+  "id": null,
+  "name": "title of title",
+  "summary": "summary",
+  "type": "content",
+  "story-content-ids": [
+    "058b6f1c-bb4c-4138-95d5-e74b65c745c1",
+    "058b6f1c-bb4c-4138-95d5-e74b65c745c1"
+  ],
+  "metadata": {
+    "url": null,
+    "description": null,
+    "Image": null,
+    "cover-image": {
+      "cover-image-url": "http:\/\/d9zv4zsfqrm9s.cloudfront.net\/qa\/2018-02\/305d6fdb-d821-40e1-a125-f73663b94613\/A3.jpg",
+      "cover-image-metadata": {
+        "mime-type": "image\/jpeg",
+        "focus-point": [
+          121,
+          122
+        ],
+        "width": 380,
+        "height": 257
+      },
+      "cover-image-s3-key": "qa\/2018-02\/305d6fdb-d821-40e1-a125-f73663b94613\/A3.jpg",
+      "caption": "A3"
+    }
+  },
+  "access": null,
+  "price-amount": null,
+  "price-currency": null,
+  "collection-date": null,
+  "items": [
+    {
+      "id": "058b6f1c-bb4c-4138-95d5-e74b65c745c1",
+      "threshold": null,
+      "type": "story"
+    },
+    {
+      "id": "058b6f1c-bb4c-4138-95d5-e74b65c745c1",
+      "threshold": null,
+      "type": "story"
+    }
+  ],
+  "rules": {
+    
+  },
+  "template": "default",
+  "automated": false,
+  "slug": ""
+}

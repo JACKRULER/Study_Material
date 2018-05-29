@@ -1,0 +1,45 @@
+{
+  "id": null,
+  "name": "ttle ttle",
+  "summary": "",
+  "type": "content",
+  "story-content-ids": [
+    4850,
+    "7055e21a-9ce5-4516-94eb-c64dcde985ce"
+  ],
+  "metadata": {
+    "url": null,
+    "description": null,
+    "Image": null,
+    "cover-image": {
+      
+    }
+  },
+  "access": null,
+  "price-amount": null,
+  "price-currency": null,
+  "collection-date": null,
+  "items": [
+    {
+      "id": "4850",
+      "threshold": null,
+      "type": "collection",
+      "associated-metadata": {
+        "url": "color",
+        "description": "description",
+        "Image": "image"
+      }
+    },
+    {
+      "id": "7055e21a-9ce5-4516-94eb-c64dcde985ce",
+      "threshold": null,
+      "type": "story"
+    }
+  ],
+  "rules": {
+    
+  },
+  "template": "default",
+  "automated": false,
+  "slug": ""
+}

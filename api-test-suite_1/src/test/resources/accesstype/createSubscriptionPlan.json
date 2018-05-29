@@ -1,0 +1,27 @@
+{
+  "subscription_plan": {
+    "id": null,
+    "subscription_group_id": 71,
+    "duration_length": "1",
+    "price_cents": "20000",
+    "price_currency": "USD",
+    "created_at": null,
+    "updated_at": null,
+    "duration_unit": "weeks",
+    "description": "plan",
+    "title": "new plan",
+    "max_trial_period_length": null,
+    "max_trial_period_unit": null,
+    "recurring": false,
+    "metadata": {
+      
+    },
+    "deleted_at": null,
+    "assets": [
+      
+    ],
+    "display_assets": [
+      
+    ]
+  }
+}

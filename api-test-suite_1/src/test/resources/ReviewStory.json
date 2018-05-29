@@ -1,0 +1,129 @@
+{
+  "tree": [
+    {
+      "content-id": "new-0",
+      "content-type": "card",
+      "client-id": "client-card-0.6141896676020975"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-0": {
+      "story-elements": [
+        {
+          "type": "text",
+          "id": "new-text-0",
+          "client-id": "client-story-element-0.22605190453798762",
+          "metadata": {},
+          "text": "<p>Some Random Message for this Story.</p>"
+        }
+      ],
+      "client-id": "client-card-0.6141896676020975"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false,
+    "must-have-review": true
+  },
+  "story-template": "review",
+  "metadata": {
+    "review-title": "Rating for this beautiful picture",
+    "review-rating": {
+      "label": "4.5",
+      "value": "4.5"
+    }
+  },
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "updated-cards": [
+    "new-0"
+  ],
+  "headline": "Review Story",
+  "subheadline": "Subtitle for Review Story",
+  "hero-image-url": "http://thumbor-stg.assettype.com/qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",
+  "hero-image-s3-key": "qa/2018-02/e440d474-dc59-4818-9458-44c84238952c/A5.jpg",  "hero-image-metadata": {
+    "width": 353,
+    "height": 368,
+    "mime-type": "image/jpeg",
+    "focus-point": [
+      156,
+      185
+    ]
+  },
+  "hero-image-attribution": "Awesome",
+  "hero-image-caption": "Nature",
+  "summary": "Share Message !!!",
+  "tags": [
+    {
+      "name": "asd"
+    }
+  ],
+  "sections": [
+    {
+      "id": 6533,
+      "name": "News",
+      "publisher-id": 107,
+      "updated-at": 1517472077282,
+      "deleted-at": null,
+      "slug": "news",
+      "display-name": null,
+      "parent-id": null,
+      "collection-id": null,
+      "pathString": "News"
+    }
+  ],
+  "seo": {
+    "meta-description": "SEO Description",
+    "meta-title": "SEO Title",
+    "meta-keywords": [
+      "Meta",
+      "SEO"
+    ],
+    "meta-google-news-standout": false,
+    "claim-reviews": {
+      "story": {
+        "enabled": false,
+        "claim-review": {
+          "itemReviewed": {
+            "author": {
+              "name": "",
+              "sameAs": ""
+            },
+            "datePublished": "2018-03-08"
+          },
+          "claimReviewed": "",
+          "reviewRating": {
+            "ratingValue": "-1",
+            "alternateName": "Hard to categorize"
+          }
+        }
+      }
+    }
+  },
+  "author-id": 181675,
+  "author-name": "Sachin S Dhingra",
+  "authors": [
+    {
+      "updated-at": 1517923719961,
+      "email": "sachin@quintype.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Sachin S Dhingra",
+      "avatar-url": "https://lh3.googleusercontent.com/-R6WXPJC81PE/AAAAAAAAAAI/AAAAAAAAAAA/qmKcDOM2O2I/photo.jpg?sz=50",
+      "source": null,
+      "first-name": null,
+      "communication-email": null,
+      "bio": null,
+      "id": 181675,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517907077824
+    }
+  ]
+}

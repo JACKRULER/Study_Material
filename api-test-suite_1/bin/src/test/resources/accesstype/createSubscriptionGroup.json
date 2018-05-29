@@ -1,0 +1,28 @@
+{
+  "subscription_group": {
+    "id": null,
+    "name": "testing1",
+    "description": "testing1",
+    "subscription_type": "Individual",
+    "public": true,
+    "created_at": null,
+    "updated_at": null,
+    "deleted_at": null,
+    "preferred_identity_provider": "email",
+    "metadata_fields": [
+      
+    ],
+    "old_assets": [
+      
+    ],
+    "assets": [
+      
+    ],
+    "display_assets": [
+      
+    ],
+    "subscription_plans": [
+      
+    ]
+  }
+}

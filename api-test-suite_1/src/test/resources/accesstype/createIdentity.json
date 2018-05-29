@@ -1,0 +1,6 @@
+{
+  "subscriber_identity": {
+    "provider": "email",
+    "value": ""
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": null,
+  "name": "recommondation",
+  "summary": "",
+  "type": "content",
+  "story-content-ids": [
+    "bb61ab9d-3c55-4029-ac82-423c6e07fa66",
+    "bb61ab9d-3c55-4029-ac82-423c6e07fa66"
+  ],
+  "metadata": {
+    "home-page-layout": [
+      {
+        "id": 0,
+        "name": "Default",
+        "key": "default"
+      }
+    ],
+    "description": null,
+    "image": null,
+    "social-share-image-url": null,
+    "social-share-message": null,
+    "cover-image": {
+      
+    }
+  },
+  "access": null,
+  "price-amount": null,
+  "price-currency": null,
+  "collection-date": null,
+  "items": [
+    {
+      "id": "bb61ab9d-3c55-4029-ac82-423c6e07fa66",
+      "threshold": null,
+      "type": "story"
+    },
+    {
+      "id": "bb61ab9d-3c55-4029-ac82-423c6e07fa66",
+      "threshold": null,
+      "type": "story"
+    }
+    
+  ],
+  "rules": {
+    
+  },
+  "data-source": "recommended",
+  "template": "default",
+  "slug": "",
+  "automated": false
+}

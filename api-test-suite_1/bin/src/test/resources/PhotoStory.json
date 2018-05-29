@@ -1,0 +1,105 @@
+{
+  "tree": [
+    {
+      "content-type": "card",
+      "content-id": "new-card-0.0750524087148603",
+      "client-id": "card-0.015337675233702885"
+    }
+  ],
+  "story-content-id": "new",
+  "cards": {
+    "new-card-0.0750524087148603": {
+      "story-elements": [
+        {
+          "type": "image",
+          "id": "new-0.13778261987808182",
+          "client-id": "client-card-0.8969606131689523",
+          "metadata": {},
+          "image-url": "http://d9zv4zsfqrm9s.cloudfront.net/qa/2018-02/18410a7f-8fe1-4d64-8406-52dd3b46afb2/A8.jpg",
+          "image-metadata": {
+            "width": 300,
+            "height": 168
+          },
+          "image-s3-key": "qa/2018-02/18410a7f-8fe1-4d64-8406-52dd3b46afb2/A8.jpg",
+          "image-attribution": "",
+          "title": "A8"
+        }
+      ],
+      "client-id": "card-0.015337675233702885"
+    }
+  },
+  "editor-features": {
+    "can-skip-hero-image": false,
+    "must-have-custom-slug": false,
+    "must-have-photo": true
+  },
+  "story-template": "photo",
+  "metadata": {},
+  "push-notification-targets": {
+    "web": false,
+    "mobile": false
+  },
+  "private-fields": {
+    "editor-notes": ""
+  },
+  "headline": "Photo",
+  "subheadline": "Subtitle of Photo Story",
+  "updated-cards": [
+    "new-card-0.0750524087148603"
+  ],
+  "hero-image-url": "https://quintype-dropbox-accelerated.s3-accelerate.amazonaws.com/qa.staging.quintype.com/2018-02-05/1449/SONG_site_at_sunset_20_blended_fused_mod1_web.jpg",
+  "hero-image-metadata": {
+    "width": 4000,
+    "height": 1877,
+    "mime-type": "image/jpeg",
+    "focus-point": [
+      1945,
+      954
+    ]
+  },
+  "temporary-hero-image-key": "qa.staging.quintype.com/2018-02-05/1449/SONG_site_at_sunset_20_blended_fused_mod1_web.jpg",
+  "hero-image-attribution": "Historic",
+  "hero-image-caption": "Sun Shine",
+  "summary": "Message!!!!",
+  "tags": [
+    {
+      "id": 168517,
+      "name": "test",
+      "meta-description": null
+    }
+  ],
+  "sections": [
+    {
+      "id": 6538,
+      "name": "Politics",
+      "publisher-id": 107,
+      "updated-at": 1517549076875,
+      "deleted-at": null,
+      "slug": "politics",
+      "display-name": "Politics",
+      "parent-id": null,
+      "collection-id": 4286,
+      "pathString": "Politics"
+    }
+  ],
+  "author-id": 181594,
+  "author-name": "Tester",
+  "authors": [
+    {
+      "updated-at": 1517482269765,
+      "email": "qa@gmail.com",
+      "last-name": null,
+      "publisher-id": 107,
+      "name": "Tester",
+      "avatar-url": null,
+      "source": null,
+      "first-name": null,
+      "communication-email": "testerquint@gmail.com",
+      "bio": null,
+      "id": 181594,
+      "avatar-s3-key": null,
+      "twitter-handle": null,
+      "created-at": 1517481589410
+    }
+  ]
+}

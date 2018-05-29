@@ -1,0 +1,23 @@
+{
+  "name": "R",
+  "recipient_subscriber": {
+    "recipient_identity_provider": "email",
+    "recipient_identity": "ritika+012@quintype.com"
+  },
+  "subscription": {
+    "subscription_plan_id": "53",
+    "coupon_code": "",
+    "payment": {
+      "payment_type": "manual",
+      "payment_token": "",
+      "amount_cents": "5000",
+      "amount_currency": "INR"
+    },
+    "metadata":  {
+      "full-name": "Ritika",
+      "email": "ritika+012@quintype.com"
+    },
+    "start_timestamp": "2018-01-21 00:00:00"
+  }}
+
+// curl -H "X-SUBAUTH: 4iqzPVx3dc5fKkxj63sXt1YM" -H "Content-Type: application/json" -X POST http://subtype.staging.quintype.com/api/v1/subscribers/email/ritika+011@quintype.com/subscription_gifts.json -d
