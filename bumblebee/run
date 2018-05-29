@@ -1,0 +1,34 @@
+#!/bin/bash -e
+
+# Uncomment the below 2 lines & comment 2 below docker lines to execute project without download file again. 
+
+
+#docker run --rm -v "$PWD":/home/gradle/project -v "$PWD/.gradle":/home/gradle/.gradle -w /home/gradle/project quay.io/quintype/gradle:4.6-jdk8-alpine gradle build
+#docker run --rm -v "$PWD":/home/gradle/project -v "$PWD/.gradle":/home/gradle/.gradle -w /home/gradle/project quay.io/quintype/gradle:4.6-jdk8-alpine gradle fatjar
+
+env=${1:-'dev'}
+pipeline=$2
+domain=$3
+timestamp=$RANDOM 
+
+if [ "$domain" == "metype" ]
+then
+	Path_Of_Data_File="./dataFileMeType.properties"	
+else
+	Path_Of_Data_File="./dataFile.properties"
+fi
+
+if [ "$env" == "dev" ]
+then
+	gradle build
+	gradle fatjar
+   	java -cp build/libs/bumblebee.jar -DdataPath=$Path_Of_Data_File -Denv=$env -Dsuite=$pipeline -Ddomain=$domain org.testng.TestNG ${pipeline}test.xml
+else
+	if [ -d ".gradle/" ];then
+	echo "changing .gradle folder permissions from root user to go user"
+       	sudo chown -R go:go .gradle/
+	fi
+		docker run --rm -v "$PWD":/home/gradle/project -v "$PWD/.gradle":/home/gradle/.gradle -w /home/gradle/project quay.io/quintype/gradle:4.6-jdk8-alpine gradle build
+		docker run --rm -v "$PWD":/home/gradle/project -v "$PWD/.gradle":/home/gradle/.gradle -w /home/gradle/project quay.io/quintype/gradle:4.6-jdk8-alpine gradle fatjar
+    	docker run --rm --name "bumblebee$timestamp" -v "${PWD}":/app --privileged -w /app quay.io/quintype/bumblebee-base:version-2 $env $pipeline $domain
+fi

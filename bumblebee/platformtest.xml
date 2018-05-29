@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">     
+
+<suite name="Suite" configfailurepolicy="continue" verbose="2">
+
+    <test name="TestFeatureToggle">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestFeatureToggle"/>
+        </classes>
+    </test>
+
+    <test name="TestLogin">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestLogin"/>
+        </classes>
+    </test>
+
+    <test name="TestBlankStory">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestBlankStory"/>
+        </classes>
+    </test>
+
+    <test name="TestPhotoStory">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestPhotoStory"/>
+        </classes>
+    </test>
+
+    <test name="TestVideoStory">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestVideoStory"/>
+        </classes>
+    </test>
+
+    <test name="TestListicleStory">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestListicleStory"/>
+        </classes>
+    </test>
+    <test name="TestCollection">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestCollection"/>
+        </classes>
+    </test>
+    <test name="TestLiveBlogStory">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestLiveBlogStory"/>
+        </classes>
+    </test>
+
+    <test name="TestBreakingNews">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestBreakingNews"/>
+        </classes>
+    </test>
+
+    <test name="TestCollection">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestCollection"/>
+        </classes>
+    </test>
+
+    <test name="TestConfigPage">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestConfigPromotionalMessage"/>
+        </classes>
+    </test>
+
+    <test name="TestStoryState">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestStoryState"/>
+        </classes>
+    </test>
+
+    <test name="TestDateFilter">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestDateFilter"/>
+        </classes>
+    </test>
+
+    <test name="TestContentTypeFilter">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestContentTypeFilter"/>
+        </classes>
+    </test>
+
+    <test name="TestAuthorProfile">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestAuthorProfile"/>
+        </classes>
+    </test>
+
+    <test name="TestRoles">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestRoles"/>
+        </classes>
+    </test>
+
+<!--    <test name="TestEntities">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestEntities"/>
+        </classes>
+    </test>
+-->
+
+    <test name="TestMember">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestMember"/>
+        </classes>
+    </test>
+
+    <test name="TestWorkspace">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestWorkspace"/>
+        </classes>
+    </test>
+
+    <test name="TestMyFilters">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestMyFilters"/>
+        </classes>
+    </test>
+
+    <test name="TestAdminSettingsStacks">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestAdminSettingsStacks"/>
+        </classes>
+    </test>
+
+    <test name="TestAdminSettingsSections">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestAdminSettingsSections"/>
+        </classes>
+    </test>
+
+    <test name="TestAdminSettingsMenu">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestAdminSettingsMenu"/>
+        </classes>
+    </test>
+
+    <test name="TestTagManager">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestTagManager"/>
+        </classes>
+    </test>
+
+    <test name="TestAdminSettingsAttributes">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestAdminSettingsAttributes"/>
+        </classes>
+    </test>
+
+    <test name="TestAmpConfigure">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestAmpConfigure"/>
+        </classes>
+    </test>
+
+    <test name="TestBlankStoryWithAllElements">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestBlankStoryWithAllElements"/>
+        </classes>
+    </test>
+
+    <test name="TestLockStoryEdit">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestLockStoryEdit"/>
+        </classes>
+    </test>
+
+    <test name="TestNBASFeature">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestNBASFeature"/>
+        </classes>
+    </test>
+
+    <test name="TestPagesLoaded">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestPagesLoaded"/>
+        </classes>
+    </test>
+
+    <test name="TestAddAuthor">
+        <groups>
+            <run>
+                <include name="platform"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestAddAuthor"/>
+        </classes>
+    </test>
+         
+</suite> 

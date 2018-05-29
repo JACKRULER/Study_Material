@@ -1,0 +1,93 @@
+
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+apply plugin: "eclipse"
+
+// In this section we declare where to find the dependencies of your project
+repositories {
+    maven { name = ""; url = 'https://repo.gradle.org/gradle/plugins-releases'}
+    maven { name = "geotoolkit"; url = "http://maven.geotoolkit.org" }    
+    maven { name = "osgeo"; url = "http://download.osgeo.org/webdav/geotools/" }
+    maven { name = "maven central"; url = "http://repo1.maven.org/maven2" }
+    maven { url 'https://jitpack.io' }
+}
+ 
+test {   // enable TestNG support (default is JUnit)
+    useTestNG() {
+//      suites 'smoketest.xml'
+    }
+}
+
+task fatJar(type: Jar) {
+    baseName = 'bumblebee'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } } {
+  }
+    with jar
+}
+
+// task ('myTask', type: JavaExec) {
+//     main = 'org.testng.TestNG'
+//     classpath = files('build/libs/bumblebee.jar')
+//   //  classpath = sourceSets.main.runtimeClasspath + sourceSets.test.runtimeClasspath
+//     args = ["-xmlpathinjar", "suites/smoketest.xml", "-listener", "org.testng.TestNG\$ExitCodeListener"]
+// }
+
+// In this section we declare the dependencies for your production and test code
+dependencies {
+	 
+  	// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+  	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+ 
+  	// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server
+  	compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '3.0.1'
+
+  	// https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+  	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+  
+  	// https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot
+  	compile group: 'ru.yandex.qatools.ashot', name: 'ashot', version: '1.1'
+   
+  	// https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+  	compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '1.7.0'
+
+    // https://mvnrepository.com/artifact/com.beust/jcommander
+    compile group: 'com.beust', name: 'jcommander', version: '1.72'
+    
+	// https://mvnrepository.com/artifact/org.testng/testng
+	compile group: 'org.testng', name: 'testng', version: '6.13'
+
+  	// https://mvnrepository.com/artifact/com.squareup.okhttp/okhttp      // For API
+  	compile group: 'com.squareup.okhttp', name: 'okhttp', version: '2.7.5'
+
+  	// https://mvnrepository.com/artifact/com.squareup.okio/okio          // For API
+  	compile group: 'com.squareup.okio', name: 'okio', version: '1.12.0'
+
+  	// https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java
+  	compile group: 'com.mashape.unirest', name: 'unirest-java', version: '1.4.9'    
+    
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple    // Added to avoid the warning message on console. Ex. SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder"
+  	compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+
+  	// https://mvnrepository.com/artifact/log4j/log4j         // For logging message to specific file
+  	compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+	// https://mvnrepository.com/artifact/org.postgresql/postgresql
+  	compile group: 'org.postgresql', name: 'postgresql', version: '42.1.3'  
+  
+  	// https://mvnrepository.com/artifact/net.lightbody.bmp/browsermob-core
+//	compile group: 'net.lightbody.bmp', name: 'browsermob-core', version: '2.1.5'
+
+	// https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+	compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+	
+	// https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured
+	compile group: 'com.jayway.restassured', name: 'rest-assured', version: '2.9.0'
+	
+	// https://mvnrepository.com/artifact/org.yaml/snakeyaml
+	compile group: 'org.yaml', name: 'snakeyaml', version: '1.17'
+	
+
+	// https://mvnrepository.com/artifact/org.yaml/snakeyaml
+	compile group: 'org.yaml', name: 'snakeyaml', version: '1.17'
+
+	}

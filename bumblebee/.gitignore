@@ -1,0 +1,22 @@
+# Ignore below directories or files.
+
+build/
+test-output/
+.gradle/
+bin/
+.settings/
+/debug.log
+/.classpath
+/.project
+/db.properties
+*.DS_Store
+screenShots/
+.cache/
+.config/
+.local/
+.m2/
+.pki/
+.idea/
+bumblebee.iml
+nohup.out
+out/

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" configfailurepolicy="continue" verbose="2">
+    <test name="TestPagesLoaded">
+        <groups>
+            <run>
+                <include name="PlatformReg1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestPagesLoaded"/>
+        </classes>
+    </test>
+  <test name="TestStoryAttributes">
+        <groups>
+            <run>
+                <include name="PlatformReg1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestStoryAttributes"/>
+        </classes>
+    </test>
+
+    <test name="TestConfigPromotionalMessage">
+        <groups>
+            <run>
+                <include name="PlatformReg1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestConfigPromotionalMessage"/>
+        </classes>
+    </test>
+
+    <test name="TestAuthorProfile">
+         <groups>
+             <run>
+                 <include name="PlatformReg1"/>
+             </run>
+         </groups>
+         <classes>
+             <class name="com.quintype.scripts.TestAuthorProfile"/>
+         </classes>
+     </test>
+
+    <test name="TestLogin">
+        <groups>
+            <run>
+                <include name="PlatformReg1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.quintype.scripts.TestLogin"/>
+        </classes>
+    </test>
+
+ </suite>

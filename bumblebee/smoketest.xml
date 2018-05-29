@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" configfailurepolicy="continue" verbose = "2">
+
+
+     <test name="TestLogin">
+      <groups>
+        <run>
+          <include name="smoketest"/>
+        </run>
+      </groups>
+      <classes>
+        <class name="com.quintype.scripts.TestLogin"/>    
+      </classes>
+    </test>   
+  
+   
+   <test name="TestBlankStory">
+      <groups>
+        <run>
+          <include name="smoketest"/>
+        </run>
+      </groups>
+      <classes>
+        <class name="com.quintype.scripts.TestBlankStory"/>    
+      </classes>
+    </test>     
+  
+   
+    <test name="TestPhotoStory">
+      <groups>
+        <run>
+          <include name="smoketest"/>
+        </run>
+      </groups>
+      <classes>
+        <class name="com.quintype.scripts.TestPhotoStory"/>    
+      </classes>
+    </test>  
+    
+    <test name="TestPagesLoaded">
+      <groups>
+        <run>
+          <include name="smoketest"/>
+        </run>
+      </groups>     
+      <classes>
+        <class name="com.quintype.scripts.TestPagesLoaded"/>
+      </classes>
+    </test>
+
+    <test name="TestCollection">
+      <groups>
+        <run>
+          <include name="smoketest"/>
+        </run>
+      </groups>
+      <classes>
+        <class name="com.quintype.scripts.TestCollection"/>  
+      </classes>
+    </test>		
+         
+</suite> 
